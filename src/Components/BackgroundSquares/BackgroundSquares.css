@@ -4,14 +4,21 @@
     background-color: transparent;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: auto;
     overflow: hidden;
+    place-items: center;
 }
 
 .background-square {
     height: 100px;
     width: 100px;
     background-color: transparent;
-    border: solid 1px #6589a1;
+    border: solid 1px #134060;
+    transition-duration: 1.7s;
+}
+
+.background-square:hover {
+    background-color: #417294;
+    transition-duration: 0.7s;
 }
