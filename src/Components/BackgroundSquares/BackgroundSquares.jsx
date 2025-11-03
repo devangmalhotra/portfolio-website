@@ -4,37 +4,41 @@ import { useState } from 'react'
 import { useEffect } from 'react';
 
 function BackgroundSquares() {
-    const [totalSquares, setTotalSquares] = useState(0);
+    const [squareSize, setSquareSize] = useState(0);
+    const [totalColumns, setTotalColumns] = useState(16);
 
-    const getTotalSquares = () => {
-        const windowHeight = window.innerHeight;
+    const getSquareSize = () => {
         const windowWidth = window.innerWidth;
-        //console.log("Window height:", windowHeight);
-        //console.log("Window width:", windowWidth);
-
-        const squaresPerRow = Math.floor(windowWidth / 100); // Since each square is 100px by 100px
-        const squaresPerColumn = Math.floor(windowHeight / 100);
-        setTotalSquares(squaresPerColumn * squaresPerRow);
-        console.log(totalSquares);
-        //console.log("Squares per row:", squaresPerRow);
-        //console.log("Squares per column:", squaresPerColumn);
+        const size = windowWidth / totalColumns;
+        setSquareSize(size);
     }
 
-    const handleWindowResize = () => {
-        getTotalSquares();
+    const getTotalColumns = () => {
+        const windowWidth = window.innerWidth;
+
+        if (windowWidth < 920) {
+            setTotalColumns(12);
+        } else if (windowWidth < 520) {
+            setTotalColumns(4);
+        } else {
+            setTotalColumns(16);
+        }
     }
 
     useEffect(() => {
-        getTotalSquares();
-        window.addEventListener("resize", getTotalSquares);
-        return () => window.removeEventListener("resize", getTotalSquares);
-    }, [totalSquares])
+        getSquareSize();
+        getTotalColumns();
+        window.addEventListener("resize", getSquareSize);
+
+        return () => window.removeEventListener("resize", getSquareSize);
+        
+
+    }, [squareSize])
 
   return (
     <div id='background-squares-container'>
-        <div className='background-square'></div>
-        {Array.from({ length: totalSquares }).map((item, index) => {
-            return (<div key={index} className='background-square'></div>)
+        {Array.from({ length: 250 }).map((item, index) => {
+            return (<div key={index} className='background-square' style={{ width: squareSize, height: squareSize }}></div>)
         })}
     </div>
   )
