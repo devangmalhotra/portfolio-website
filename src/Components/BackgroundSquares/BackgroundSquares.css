@@ -26,25 +26,26 @@
     transition-duration: 0.7s;
 }
 
-@media (max-width: 520px) {
+
+
+@media (max-width: 920px) {
     #background-squares-container {
         grid-template-columns: repeat(12, minmax(0, 1fr));
     }
+}
+
+@media (max-width: 520px) {
+    #background-squares-container {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
 
     .background-square {
-        height: 200px !important;
-        width: 200px !important;
+        
         background-color: transparent;
         border: solid 1px #124367;
         transition-duration: 1.7s;
         transition-property: background-color;
 
-    }
-}
-
-@media (max-width: 920px) {
-    #background-squares-container {
-        grid-template-columns: repeat(12, minmax(0, 1fr));
     }
 }
 

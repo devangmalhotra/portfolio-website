@@ -16,7 +16,7 @@ function BackgroundSquares() {
     const getTotalColumns = () => {
         const windowWidth = window.innerWidth;
 
-        if (windowWidth < 920) {
+        if (windowWidth < 920 && windowWidth > 520) {
             setTotalColumns(12);
         } else if (windowWidth < 520) {
             setTotalColumns(4);
@@ -26,8 +26,8 @@ function BackgroundSquares() {
     }
 
     useEffect(() => {
-        getSquareSize();
         getTotalColumns();
+        getSquareSize();
         window.addEventListener("resize", getSquareSize);
 
         return () => window.removeEventListener("resize", getSquareSize);
