@@ -8,6 +8,9 @@
     overflow: hidden;
     place-items: center;
     gap: 0;
+    position: absolute;
+    top: 0;
+    z-index: -999; /* content should be above the background */
 }
 
 .background-square {

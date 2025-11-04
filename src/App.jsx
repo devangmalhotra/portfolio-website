@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import BackgroundSquares from './Components/BackgroundSquares/BackgroundSquares'
+import MainContentContainer from './Components/MainContentContainer/MainContentContainer'
 
 function App() {
 
   return (
     <div>
       <BackgroundSquares />
+      <MainContentContainer />
     </div>
   )
 }
