@@ -7,14 +7,9 @@ function BackgroundSquares() {
     const [squareSize, setSquareSize] = useState(0);
     const [totalColumns, setTotalColumns] = useState(16);
 
-    const getSquareSize = () => {
-        const windowWidth = window.innerWidth;
-        const size = windowWidth / totalColumns;
-        setSquareSize(size);
-    }
-
     const getTotalColumns = () => {
         const windowWidth = window.innerWidth;
+        const size = windowWidth / totalColumns;
 
         if (windowWidth < 920 && windowWidth > 520) {
             setTotalColumns(12);
@@ -23,14 +18,15 @@ function BackgroundSquares() {
         } else {
             setTotalColumns(16);
         }
+
+        setSquareSize(size);
     }
 
     useEffect(() => {
         getTotalColumns();
-        getSquareSize();
-        window.addEventListener("resize", getSquareSize);
+        window.addEventListener("resize", getTotalColumns);
 
-        return () => window.removeEventListener("resize", getSquareSize);
+        return () => window.removeEventListener("resize", getTotalColumns);
         
 
     }, [squareSize])
