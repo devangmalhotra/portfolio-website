@@ -8,7 +8,7 @@ import MainContentContainer from './Components/MainContentContainer/MainContentC
 function App() {
 
   return (
-    <div>
+    <div id='main'>
       <BackgroundSquares />
       <MainContentContainer />
     </div>

@@ -3,7 +3,7 @@ import './MainContentContainer.css'
 
 function MainContentContainer() {
   return (
-    <div>MainContentContainer</div>
+    <div id='main-content-container'>test</div>
   )
 }
 
