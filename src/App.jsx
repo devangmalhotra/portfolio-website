@@ -10,7 +10,6 @@ function App() {
   return (
     <div id='main'>
       <BackgroundSquares />
-      <MainContentContainer />
     </div>
   )
 }
