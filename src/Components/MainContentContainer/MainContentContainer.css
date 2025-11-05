@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 700px;
-    width: 800px;
-    background-color: rgb(30, 122, 203);
+    height: 800px;
+    width: 1200px;
+    background-color: rgb(0, 0, 0);
     position: absolute;
 }
