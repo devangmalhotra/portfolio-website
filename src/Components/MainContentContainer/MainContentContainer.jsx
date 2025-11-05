@@ -1,9 +1,12 @@
 import React from 'react'
 import './MainContentContainer.css'
+import HelloCard from '../HelloCard/HelloCard'
 
 function MainContentContainer() {
   return (
-    <div id='main-content-container'>test</div>
+    <div id='main-content-container'>
+        <HelloCard />
+    </div>
   )
 }
 

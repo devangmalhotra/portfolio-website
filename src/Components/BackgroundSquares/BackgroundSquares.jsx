@@ -2,6 +2,7 @@ import React, { use } from 'react'
 import '../BackgroundSquares/BackgroundSquares.css'
 import { useState } from 'react'
 import { useEffect } from 'react';
+import MainContentContainer from '../MainContentContainer/MainContentContainer';
 
 function BackgroundSquares() {
     const [squareSize, setSquareSize] = useState(0);
@@ -36,6 +37,7 @@ function BackgroundSquares() {
         {Array.from({ length: 250 }).map((item, index) => {
             return (<div key={index} className='background-square' style={{ width: squareSize, height: squareSize }}></div>)
         })}
+        <MainContentContainer />
     </div>
   )
 }
