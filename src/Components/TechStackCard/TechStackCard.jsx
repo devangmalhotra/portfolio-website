@@ -6,6 +6,7 @@ function TechStackCard() {
   return (
     <div id='tech-stack-card-container'>
         <div id='tech-stack-card-content'>
+            <h2>What's My Tech Stack Looking Like?</h2>
             <TechStackCarousel />
         </div>
     </div>

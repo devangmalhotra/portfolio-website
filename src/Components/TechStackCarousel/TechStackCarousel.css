@@ -4,14 +4,25 @@
     vertical-align: middle;
 }
 
+.logo-caption-container {
+    display: inline-block;
+}
+
+.logo-caption-container h5 {
+    margin: 0;
+    padding: 10px 0 0 0;
+    color: #00BCD4;
+}
+
 .logos-slide {
     display: inline-block;
-    animation: slide 10s infinite linear;
+    animation: slide 15s infinite linear;
 }
 
 .logos {
     white-space: nowrap;
     width: 700px;
+    margin: 20px 0 0 0;
 }
 
 .logos:hover .logos-slide {

@@ -3,4 +3,11 @@
     border-radius: 5px;
     border: solid #00BCD4 2px;
     overflow: hidden;
+    padding: 20px;
+    
+}
+
+#tech-stack-card-content h2{
+    margin: 0 0 0 0;
+    text-align: left;
 }
