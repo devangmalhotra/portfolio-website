@@ -6,6 +6,7 @@
 
 .logo-caption-container {
     display: inline-block;
+    margin: 0;
 }
 
 .logo-caption-container h5 {
@@ -16,13 +17,17 @@
 
 .logos-slide {
     display: inline-block;
-    animation: slide 15s infinite linear;
+    animation: slide 8s infinite linear;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .logos {
     white-space: nowrap;
     width: 700px;
     margin: 20px 0 0 0;
+    overflow: hidden;
 }
 
 .logos:hover .logos-slide {
