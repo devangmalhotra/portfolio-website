@@ -27,8 +27,10 @@ function TechStackLibCarousel() {
     <div className='logos'>
         <div className='logos-slide'>
             {renderLogos()}
+            {renderLogos()}
         </div>
         <div className='logos-slide'>
+            {renderLogos()}
             {renderLogos()}
         </div>
     </div>
