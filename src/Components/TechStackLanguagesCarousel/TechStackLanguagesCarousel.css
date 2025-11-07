@@ -1,5 +1,5 @@
 .logos-slide img{
-    height: 60px;
+    height: 30px;
     margin: 0 20px;
     vertical-align: middle;
 }
@@ -17,7 +17,7 @@
 
 .logos-slide {
     display: inline-block;
-    animation: 20s slide infinite linear;
+    animation: 50s slidee infinite linear;
     padding: 0;
     margin: 0;
 }

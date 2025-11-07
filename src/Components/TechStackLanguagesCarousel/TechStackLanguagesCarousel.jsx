@@ -1,5 +1,5 @@
 import React from 'react'
-import './TechStackCarousel.css'
+import './TechStackLanguagesCarousel.css'
 import pythonLogo from '../../assets/TechStackIcons/icons8-python.svg'
 import htmlLogo from '../../assets/TechStackIcons/icons8-html-5.svg'
 import cssLogo from '../../assets/TechStackIcons/icons8-css3.svg'

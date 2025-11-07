@@ -1,13 +1,26 @@
 import React from 'react'
 import './TechStackCard.css'
-import TechStackCarousel from '../TechStackCarousel/TechStackCarousel'
+import TechStackLanguagesCarousel from '../TechStackLanguagesCarousel/TechStackLanguagesCarousel'
+import TechStackLibCarousel from '../TechStackLibCarousel/TechStackLibCarousel'
 
 function TechStackCard() {
   return (
     <div id='tech-stack-card-container'>
         <div id='tech-stack-card-content'>
             <h2>What's My Tech Stack Looking Like?</h2>
-            <TechStackCarousel />
+            <div className='carousel'>
+                <h4>Languages</h4>
+                <TechStackLanguagesCarousel />
+            </div>
+            <div className='carousel'>
+                <h4>Libraries and Frameworks</h4>
+                <TechStackLibCarousel />
+            </div>
+            <div className='carousel'>
+                <h4>Additional Tools and Technologies</h4>
+                <TechStackLanguagesCarousel />
+            </div>
+            
         </div>
     </div>
   )
