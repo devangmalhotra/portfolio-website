@@ -2,6 +2,7 @@ import React from 'react'
 import './TechStackCard.css'
 import TechStackLanguagesCarousel from '../TechStackLanguagesCarousel/TechStackLanguagesCarousel'
 import TechStackLibCarousel from '../TechStackLibCarousel/TechStackLibCarousel'
+import TechStackToolsCarousel from '../TechStackToolsCarousel/TechStackToolsCarousel'
 
 function TechStackCard() {
   return (
@@ -18,7 +19,7 @@ function TechStackCard() {
             </div>
             <div className='carousel'>
                 <h4>Additional Tools and Technologies</h4>
-                <TechStackLanguagesCarousel />
+                <TechStackToolsCarousel />
             </div>
             
         </div>

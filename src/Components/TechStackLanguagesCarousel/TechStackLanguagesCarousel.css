@@ -17,7 +17,7 @@
 
 .logos-slide {
     display: inline-block;
-    animation: 50s slidee infinite linear;
+    animation: 50s slide infinite linear;
     padding: 0;
     margin: 0;
 }
