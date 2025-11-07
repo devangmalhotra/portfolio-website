@@ -10,41 +10,26 @@ import expressLogo from '../../assets/TechStackIcons/icons8-express-js-100.png'
 import puppeteerLogo from '../../assets/TechStackIcons/output-onlinepngtools.png'
 
 function TechStackLibCarousel() {
+    const logos = [{ src: reactLogo, name: 'React' }, { src: pandasLogo, name: 'Pandas' }, { src: nodeLogo, name: 'Node.js' }, { src: tailwindLogo, name: 'Tailwind' }, { src: flaskLogo, name: 'Flask' }, { src: seleniumLogo, name: 'Selenium' }, { src: expressLogo, name: 'Express' }, { src: puppeteerLogo, name: 'Puppeteer' }];
+
+    const renderLogos = () => {
+        return (logos.map((item, index) => {
+            return (
+            <div className='logo-caption-container' key={index}>
+                <img key={index} src={item.src} alt={item.name} />
+                <h5>{item.name}</h5>
+            </div>
+        )
+        }))
+    }
+
   return (
     <div className='logos'>
         <div className='logos-slide'>
-            <div className='logo-caption-container'>
-                <img src={reactLogo} alt="React" />
-                <h5>React</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={pandasLogo} alt="Pandas" />
-                <h5>Pandas</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={nodeLogo} alt="Node.js" />
-                <h5>Node.js</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={tailwindLogo} alt="Tailwind" />
-                <h5>Tailwind</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={flaskLogo} alt="Flask" />
-                <h5>Flask</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={seleniumLogo} alt="Selenium" />
-                <h5>Selenium</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={expressLogo} alt="Express" />
-                <h5>Express</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={puppeteerLogo} alt="Puppeteer" />
-                <h5>Puppeteer</h5>
-            </div>
+            {renderLogos()}
+        </div>
+        <div className='logos-slide'>
+            {renderLogos()}
         </div>
     </div>
   )

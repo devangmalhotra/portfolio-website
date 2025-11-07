@@ -8,107 +8,26 @@ import javaLogo from '../../assets/TechStackIcons/icons8-java.svg'
 import sqlLogo from '../../assets/TechStackIcons/icons8-sql-100.png'
 
 function TechStackCarousel() {
+    const logos = [{ src: pythonLogo, name: 'Python' }, { src: htmlLogo, name: 'HTML5' }, { src: cssLogo, name: 'CSS3' }, { src: jsLogo, name: 'JavaScript' }, { src: javaLogo, name: 'Java' }, { src: sqlLogo, name: 'SQL' }];
+
+    const renderLogos = () => {
+        return logos.map((item, index) => {
+            return (
+            <div key={index}className='logo-caption-container'>
+                <img key={index} src={item.src} alt={item.name} />
+                <h5>{item.name}</h5>
+            </div>
+        )
+        })
+    }
+
   return (
     <div className='logos'>
         <div className='logos-slide'>
-            <div className='logo-caption-container'>
-                <img src={pythonLogo} alt="Python" />
-                <h5>Python</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={htmlLogo} alt="HTML5" />
-                <h5>HTML5</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={cssLogo} alt="CSS3" />
-                <h5>CSS3</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={jsLogo} alt="JavaScript" />
-                <h5>JavaScript</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={javaLogo} alt="Java" />
-                <h5>Java</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={sqlLogo} alt="SQL" />
-                <h5>SQL</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={pythonLogo} alt="Python" />
-                <h5>Python</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={htmlLogo} alt="HTML5" />
-                <h5>HTML5</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={cssLogo} alt="CSS3" />
-                <h5>CSS3</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={jsLogo} alt="JavaScript" />
-                <h5>JavaScript</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={javaLogo} alt="Java" />
-                <h5>Java</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={sqlLogo} alt="SQL" />
-                <h5>SQL</h5>
-            </div>
+            {renderLogos()}
         </div>
         <div className='logos-slide'>
-            <div className='logo-caption-container'>
-                <img src={pythonLogo} alt="Python" />
-                <h5>Python</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={htmlLogo} alt="HTML5" />
-                <h5>HTML5</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={cssLogo} alt="CSS3" />
-                <h5>CSS3</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={jsLogo} alt="JavaScript" />
-                <h5>JavaScript</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={javaLogo} alt="Java" />
-                <h5>Java</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={sqlLogo} alt="SQL" />
-                <h5>SQL</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={pythonLogo} alt="Python" />
-                <h5>Python</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={htmlLogo} alt="HTML5" />
-                <h5>HTML5</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={cssLogo} alt="CSS3" />
-                <h5>CSS3</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={jsLogo} alt="JavaScript" />
-                <h5>JavaScript</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={javaLogo} alt="Java" />
-                <h5>Java</h5>
-            </div>
-            <div className='logo-caption-container'>
-                <img src={sqlLogo} alt="SQL" />
-                <h5>SQL</h5>
-            </div>
+            {renderLogos()}
         </div>
         
     </div>
