@@ -11,9 +11,9 @@ function BackgroundSquares() {
     const getTotalColumns = () => {
         const windowWidth = window.innerWidth;
 
-        if (windowWidth < 920 && windowWidth > 520) {
+        if (windowWidth <= 1100 && windowWidth > 650) {
             setTotalColumns(12);
-        } else if (windowWidth < 520) {
+        } else if (windowWidth <= 650) {
             setTotalColumns(4);
         } else {
             setTotalColumns(16);

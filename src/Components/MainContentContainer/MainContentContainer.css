@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    background-color: black;
     overflow: hidden;
     gap: 1rem;
 }
