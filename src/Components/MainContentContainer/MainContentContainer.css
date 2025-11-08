@@ -2,8 +2,6 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 800px;
-    width: 1200px;
     position: absolute;
     background-color: black;
 }
