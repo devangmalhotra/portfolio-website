@@ -5,4 +5,5 @@
     position: absolute;
     background-color: black;
     overflow: hidden;
+    grid-template-columns: 700px;
 }

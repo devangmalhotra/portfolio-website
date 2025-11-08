@@ -3,4 +3,29 @@
     background-color: #1a2a55;
     border-radius: 5px;
     border: solid #00BCD4 2px;
+    text-align: left;
+}
+
+.navbar-link-icon {
+    height: 30px;
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    display: flex;
+    font-size: 22px;
+    color: white;
+    margin: 15px 0;
+}
+
+.navbar-links li img {
+    display: flex;
+    font-size: 22px;
+    color: white;
+    margin: 0 10px 0 0;
 }
