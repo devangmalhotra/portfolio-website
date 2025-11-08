@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavBar.css'
-import homeIcon from '../../assets/NavBarIcons/icons8-house-64.png'
+import homeIcon from '../../assets/NavBarIcons/icons8-home-50.png'
 import experienceIcon from '../../assets/NavBarIcons/icons8-briefcase-64.png'
 import projectsIcon from '../../assets/NavBarIcons/icons8-projects-50.png'
 import contactIcon from '../../assets/NavBarIcons/icons8-contact-50.png'
