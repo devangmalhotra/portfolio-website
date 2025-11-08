@@ -1,13 +1,21 @@
 #navbar-card-container {
-    padding: 20px;
     background-color: #1a2a55;
     border-radius: 5px;
     border: solid #00BCD4 2px;
     text-align: left;
+    grid-column: 2;
+    grid-row: 1 / 3;
+    height: 100%;
+    width: 200px;
+    align-self: stretch;
 }
 
 .navbar-link-icon {
     height: 30px;
+}
+
+.navbar {
+    padding: 20px;
 }
 
 .navbar-links {
@@ -27,4 +35,8 @@
     font-size: 22px;
     color: white;
     margin: 0 10px 0 0;
+}
+
+.navbar-links li:first-child, .navbar-links li:last-child {
+    margin: 0 0 0 0;
 }

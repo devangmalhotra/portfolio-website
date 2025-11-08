@@ -2,6 +2,8 @@
     background-color: #1a2a55;
     border-radius: 5px;
     border: solid #00BCD4 2px;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 #hello-card-container h2, #hello-card-container h5 {
