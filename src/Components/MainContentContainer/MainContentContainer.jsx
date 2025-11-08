@@ -3,6 +3,7 @@ import './MainContentContainer.css'
 import HelloCard from '../HelloCard/HelloCard'
 import TechStackCard from '../TechStackCard/TechStackCard'
 import NavBar from '../NavBar/NavBar'
+import LocationCard from '../LocationCard/LocationCard'
 
 function MainContentContainer() {
   return (
@@ -10,6 +11,7 @@ function MainContentContainer() {
         <HelloCard />
         <TechStackCard />
         <NavBar />
+        <LocationCard />
     </div>
   )
 }

@@ -1,0 +1,20 @@
+#location-card-container {
+    background-color: #1a2a55;
+    padding: 20px;
+    border: solid #00BCD4 2px;
+}
+
+#location-card-content h4 {
+    margin: 0;
+}
+
+#location-card-content img {
+    height: 30px;
+    margin: 0 5px;
+}
+
+#location-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
