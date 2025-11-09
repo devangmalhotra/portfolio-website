@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    position: relative;
 }
 
 .external-link-card-content {

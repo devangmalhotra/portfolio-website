@@ -4,7 +4,7 @@ import resume from '../../assets/Devang Malhotra - Resume.pdf'
 
 function ContactBtn() {
   const handleClick = () => {
-          const newWindow = window.open('https://www.linkedin.com/in/devangmalhotra/', '_blank', 'noopener,noreferrer');
+          const newWindow = window.open(resume, '_blank', 'noopener,noreferrer');
           if (newWindow) newWindow.opener = null;
       };
 
