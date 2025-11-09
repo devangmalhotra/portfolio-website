@@ -4,5 +4,19 @@
     border: solid #00BCD4 2px;
     grid-column: 2;
     align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.external-link-card-content {
     padding: 20px;
+}
+
+.external-link-card:hover {
+    cursor: pointer;
+    border-color: #ff432b;
+    background-color: black;
+    filter: invert(100%);
 }
