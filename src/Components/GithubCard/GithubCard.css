@@ -20,3 +20,7 @@
     background-color: black;
     filter: invert(100%);
 }
+
+#github-card-container {
+    grid-row: 1 / 2;
+}

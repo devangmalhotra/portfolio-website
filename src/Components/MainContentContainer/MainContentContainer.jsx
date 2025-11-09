@@ -5,6 +5,7 @@ import TechStackCard from '../TechStackCard/TechStackCard'
 import NavBar from '../NavBar/NavBar'
 import LocationCard from '../LocationCard/LocationCard'
 import GithubCard from '../GithubCard/GithubCard'
+import LinkedinCard from '../LinkedinCard/LinkedinCard'
 
 function MainContentContainer() {
   return (
@@ -14,6 +15,7 @@ function MainContentContainer() {
         <NavBar />
         <LocationCard />
         <GithubCard />
+        <LinkedinCard />
     </div>
   )
 }
