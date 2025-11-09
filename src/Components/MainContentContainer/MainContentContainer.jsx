@@ -4,6 +4,7 @@ import HelloCard from '../HelloCard/HelloCard'
 import TechStackCard from '../TechStackCard/TechStackCard'
 import NavBar from '../NavBar/NavBar'
 import LocationCard from '../LocationCard/LocationCard'
+import GithubCard from '../GithubCard/GithubCard'
 
 function MainContentContainer() {
   return (
@@ -12,6 +13,7 @@ function MainContentContainer() {
         <TechStackCard />
         <NavBar />
         <LocationCard />
+        <GithubCard />
     </div>
   )
 }

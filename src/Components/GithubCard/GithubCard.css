@@ -1,0 +1,8 @@
+.external-link-card {
+    background-color: #1a2a55;
+    border-radius: 5px;
+    border: solid #00BCD4 2px;
+    grid-column: 2;
+    align-self: stretch;
+    padding: 20px;
+}
