@@ -1,6 +1,6 @@
 import React from 'react'
 import '../HelloCard/HelloCard.css'
-import ContactBtn from '../ContactBtn/ContactBtn'
+import ContactBtn from '../ResumeBtn/ResumeBtn'
 
 function HelloCard() {
   return (
