@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .external-link-card-content {
@@ -19,6 +20,7 @@
     border-color: #ff432b;
     background-color: black;
     filter: invert(100%);
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 #github-card-container {
