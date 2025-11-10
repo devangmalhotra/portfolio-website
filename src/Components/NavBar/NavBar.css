@@ -55,3 +55,9 @@
     margin: 0 10px 0 0;
 }
 
+.navbar-active {
+    filter: invert(100%);
+    background-color: black;
+    border-radius: 5px;
+}
+

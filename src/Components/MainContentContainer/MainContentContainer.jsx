@@ -12,13 +12,15 @@ function MainContentContainer() {
     const [activeSection, setActiveSection] = useState('home');
 
     const handleSectionClick = (section) => {
-        console.log(section);
+        setActiveSection(section);
+
+        console.log("Section changed to:", section);
     }
 
   return (
     <div id='main-content-container'>
-        <NavBar />
-        <div id='home-page' className='page'>
+        <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection}/>
+        <div id='home-page' className={activeSection == 'home' ? 'page' : 'page inactive-page'}>
             <HelloCard />
             <TechStackCard />
             <LocationCard />
