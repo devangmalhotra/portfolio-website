@@ -8,7 +8,7 @@
     overflow: hidden;
     place-items: center;
     gap: 0;
-    position: relative;
+    position: absolute;
 }
 
 .background-square {

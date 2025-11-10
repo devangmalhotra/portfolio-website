@@ -37,7 +37,6 @@ function BackgroundSquares() {
         {Array.from({ length: 250 }).map((item, index) => {
             return (<div key={index} className='background-square' style={{ width: squareSize, height: squareSize }}></div>)
         })}
-        <MainContentContainer />
     </div>
   )
 }
