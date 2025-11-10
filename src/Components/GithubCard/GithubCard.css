@@ -24,7 +24,7 @@
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
-.external-link-card:hover .external-link-icon-container img{
+.external-link-card:hover .external-link-icon-container img {
     opacity: 100%;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
