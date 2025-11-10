@@ -24,6 +24,23 @@
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
+.external-link-card:hover .external-link-icon-container img{
+    opacity: 100%;
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
 #github-card-container {
     grid-row: 1 / 2;
 }
+
+.external-link-icon-container img {
+    height: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+
+}
+
