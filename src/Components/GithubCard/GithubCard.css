@@ -2,7 +2,6 @@
     background-color: #13234d;
     border-radius: 5px;
     border: solid #00BCD4 2px;
-    grid-column: 2;
     align-self: stretch;
     display: flex;
     flex-direction: column;
