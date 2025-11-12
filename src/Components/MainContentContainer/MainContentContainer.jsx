@@ -6,6 +6,7 @@ import NavBar from '../NavBar/NavBar'
 import LocationCard from '../Home/LocationCard/LocationCard'
 import GithubCard from '../Home/GithubCard/GithubCard'
 import LinkedinCard from '../Home/LinkedinCard/LinkedinCard'
+import EmailCard from '../Contact/EmailCard/EmailCard'
 import { useState } from 'react'
 
 function MainContentContainer() {
@@ -27,11 +28,15 @@ function MainContentContainer() {
             </div>
             ) }, { name: 'experience', content: (
     <div id='experience-page' className={activeSection == 'experience' ? 'page' : 'page inactive-page'}>
-                <HelloCard />
-                <TechStackCard />
-                <LocationCard />
-                <GithubCard />
-                <LinkedinCard />
+                
+            </div>
+            ) }, { name: 'projects', content: (
+    <div id='projects-page' className={activeSection == 'projects' ? 'page' : 'page inactive-page'}>
+                
+            </div>
+            ) }, { name: 'contact', content: (
+    <div id='contact-page' className={activeSection == 'contact' ? 'page' : 'page inactive-page'}>
+                <EmailCard />
             </div>
             ) }]
 
