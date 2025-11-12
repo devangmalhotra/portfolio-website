@@ -6,6 +6,9 @@
     grid-row: 3;
     border-radius: 5px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #location-card-content h4 {

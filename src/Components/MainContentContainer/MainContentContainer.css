@@ -5,16 +5,17 @@
     position: absolute;
     overflow: hidden;
     transform: translate(-50%, -50%);
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 100%;
     top: 50%;
     left: 50%;
     gap: 0 1rem;
-    background-color: blue;
     width: 1200px;
+    height: 800px;
 }
 
 #pages-container {
-    background-color: black;
-    display: relative;
+    position: relative;
     align-self: stretch;
 }
 
@@ -22,6 +23,8 @@
     display: grid;
     gap: 1rem;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
     
 }
 
