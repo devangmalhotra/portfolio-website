@@ -20,12 +20,14 @@ function MainContentContainer() {
   return (
     <div id='main-content-container'>
         <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection}/>
-        <div id='home-page' className={activeSection == 'home' ? 'page' : 'page inactive-page'}>
-            <HelloCard />
-            <TechStackCard />
-            <LocationCard />
-            <GithubCard />
-            <LinkedinCard />
+        <div id='pages-container'>
+            <div id='home-page' className={activeSection == 'home' ? 'page' : 'page inactive-page'}>
+                <HelloCard />
+                <TechStackCard />
+                <LocationCard />
+                <GithubCard />
+                <LinkedinCard />
+            </div>
         </div>
     </div>
   )
