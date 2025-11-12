@@ -1,9 +1,9 @@
 import React from 'react'
 import './TechStackToolsCarousel.css' 
-import gitLogo from '../../assets/TechStackIcons/icons8-git-250.png'
-import dockerLogo from '../../assets/TechStackIcons/icons8-docker.svg'
-import mysqlLogo from '../../assets/TechStackIcons/icons8-sql-100.png'
-import officeLogo from '../../assets/TechStackIcons/icons8-microsoft-office.svg'
+import gitLogo from '../../../assets/TechStackIcons/icons8-git-250.png'
+import dockerLogo from '../../../assets/TechStackIcons/icons8-docker.svg'
+import mysqlLogo from '../../../assets/TechStackIcons/icons8-sql-100.png'
+import officeLogo from '../../../assets/TechStackIcons/icons8-microsoft-office.svg'
 
 function TechStackToolsCarousel() {
     const logos = [{ src: gitLogo, name:'Git' }, { src: dockerLogo, name:'Docker' }, { src: mysqlLogo, name:'MySQL' }, { src: officeLogo, name:'MS Office' }];

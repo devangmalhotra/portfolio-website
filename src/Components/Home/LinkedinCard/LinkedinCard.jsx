@@ -1,7 +1,7 @@
 import React from 'react'
 import './LinkedinCard.css'
-import linkedinLogo from '../../assets/icons8-linkedin-50.png'
-import externalLinkIcon from '../../assets/icons8-external-link-128.png'
+import linkedinLogo from '../../../assets/icons8-linkedin-50.png'
+import externalLinkIcon from '../../../assets/icons8-external-link-128.png'
 
 function LinkedinCard() {
   const handleClick = () => {

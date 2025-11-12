@@ -1,11 +1,11 @@
 import React from 'react'
 import './MainContentContainer.css'
-import HelloCard from '../HelloCard/HelloCard'
-import TechStackCard from '../TechStackCard/TechStackCard'
+import HelloCard from '../Home/HelloCard/HelloCard'
+import TechStackCard from '../Home/TechStackCard/TechStackCard'
 import NavBar from '../NavBar/NavBar'
-import LocationCard from '../LocationCard/LocationCard'
-import GithubCard from '../GithubCard/GithubCard'
-import LinkedinCard from '../LinkedinCard/LinkedinCard'
+import LocationCard from '../Home/LocationCard/LocationCard'
+import GithubCard from '../Home/GithubCard/GithubCard'
+import LinkedinCard from '../Home/LinkedinCard/LinkedinCard'
 import { useState } from 'react'
 
 function MainContentContainer() {

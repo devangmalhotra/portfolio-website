@@ -1,6 +1,6 @@
 import React from 'react'
 import './ResumeBtn.css'
-import resume from '../../assets/Devang Malhotra - Resume.pdf'
+import resume from '../../../assets/Devang Malhotra - Resume.pdf'
 
 function ContactBtn() {
   const handleClick = () => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import './GithubCard.css'
-import githubLogo from '../../assets/icons8-github-64.png'
-import externalLinkIcon from '../../assets/icons8-external-link-128.png'
+import githubLogo from '../../../assets/icons8-github-64.png'
+import externalLinkIcon from '../../../assets/icons8-external-link-128.png'
 
 function GithubCard() {
     const handleClick = () => {

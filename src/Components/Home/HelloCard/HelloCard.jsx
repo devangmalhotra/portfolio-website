@@ -1,5 +1,5 @@
 import React from 'react'
-import '../HelloCard/HelloCard.css'
+import './HelloCard.css'
 import ContactBtn from '../ResumeBtn/ResumeBtn'
 
 function HelloCard() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './LocationCard.css'
-import locationPinIcon from '../../assets/icons8-location-pin-50.png'
+import locationPinIcon from '../../../assets/icons8-location-pin-50.png'
 
 function LocationCard() {
   return (
