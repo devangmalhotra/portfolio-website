@@ -10,8 +10,8 @@ function GithubCard() {
     };
 
   return (
-    <div id='github-card-container' className='external-link-card' onClick={handleClick}>
-        <div id='github-card-content' className='external-link-card-content'>
+    <div id='github-card-container' className='card external-link' onClick={handleClick}>
+        <div id='github-card-content' className='card-content'>
             <div className='external-link-icon-container'>
                 <img src={externalLinkIcon} alt="" />
             </div>

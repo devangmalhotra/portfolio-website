@@ -21,7 +21,7 @@ function MainContentContainer() {
     }
 
     const sections = [{ name: 'home', content: (
-    <div id='home-page' className={activeSection == 'home' ? 'page' : 'page inactive-page'}>
+    <div id='home-page' className='page'>
                 <HelloCard />
                 <TechStackCard />
                 <LocationCard />
@@ -29,15 +29,15 @@ function MainContentContainer() {
                 <LinkedinCard />
             </div>
             ) }, { name: 'experience', content: (
-    <div id='experience-page' className={activeSection == 'experience' ? 'page' : 'page inactive-page'}>
+    <div id='experience-page' className='page'>
                 
             </div>
             ) }, { name: 'projects', content: (
-    <div id='projects-page' className={activeSection == 'projects' ? 'page' : 'page inactive-page'}>
+    <div id='projects-page' className='page'>
                 
             </div>
             ) }, { name: 'contact', content: (
-    <div id='contact-page' className={activeSection == 'contact' ? 'page' : 'page inactive-page'}>
+    <div id='contact-page' className='page'>
                 <EmailCard />
                 <PhoneCard />
                 <DiscordCard />

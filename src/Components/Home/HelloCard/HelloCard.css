@@ -1,12 +1,6 @@
 #hello-card-container {
-    background-color: #13234d;
-    border-radius: 5px;
-    border: solid #00BCD4 2px;
     grid-column: 1;
     grid-row: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #hello-card-container h2, #hello-card-container h5 {
@@ -17,7 +11,6 @@
 #hello-card-content {
     width: 70%;
     text-align: left;
-    padding: 20px;
     font-size: 20px;
 }
 

@@ -1,22 +1,12 @@
 #tech-stack-card-container {
-    background-color: #13234d;
-    border-radius: 5px;
-    border: solid #00BCD4 2px;
     grid-column: 1 / 2;
     grid-row: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #tech-stack-card-content h2{
     margin: 0 0 10px 0;
     text-align: left;
     color: white;
-}
-
-#tech-stack-card-content {
-    padding: 20px;
 }
 
 #tech-stack-card-content h4{

@@ -6,8 +6,8 @@ import TechStackToolsCarousel from '../TechStackToolsCarousel/TechStackToolsCaro
 
 function TechStackCard() {
   return (
-    <div id='tech-stack-card-container'>
-        <div id='tech-stack-card-content'>
+    <div id='tech-stack-card-container' className='card'>
+        <div id='tech-stack-card-content' className='card-content'>
             <h2>What's My Tech Stack Looking Like?</h2>
             <div className='carousel'>
                 <h4>Languages</h4>

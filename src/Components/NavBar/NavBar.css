@@ -1,7 +1,4 @@
 #navbar-card-container {
-    background-color: #13234d;
-    border-radius: 5px;
-    border: solid #00BCD4 2px;
     text-align: left;
     grid-column: 2;
     grid-row: 1 / 4;
@@ -13,7 +10,6 @@
 }
 
 .navbar {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;

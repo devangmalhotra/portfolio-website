@@ -1,21 +1,11 @@
-.external-link-card {
-    background-color: #13234d;
-    border-radius: 5px;
-    border: solid #00BCD4 2px;
+.external-link {
     align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     position: relative;
 }
 
-.external-link-card-content {
-    padding: 20px;
-}
-
-.external-link-card:hover {
+.external-link:hover {
     cursor: pointer;
     border-color: #ff432b;
     background-color: black;
@@ -23,7 +13,7 @@
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
-.external-link-card:hover .external-link-icon-container img {
+.external-link:hover .external-link-icon-container img {
     opacity: 100%;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }

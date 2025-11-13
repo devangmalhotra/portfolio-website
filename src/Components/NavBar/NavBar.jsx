@@ -8,8 +8,8 @@ import contactIcon from '../../assets/NavBarIcons/icons8-contact-50.png'
 function NavBar(props) {
 
   return (
-    <div id='navbar-card-container'>
-        <nav className='navbar'>
+    <div id='navbar-card-container' className='card'>
+        <nav className='navbar card-content'>
             <ul className='navbar-links'>
                 <li onClick={props.handleSectionClick.bind(this, 'home')} className={props.activeSection == 'home' ? 'navbar-active' : ''}><img className='navbar-link-icon' src={homeIcon} alt="" />Home</li>
                 <li onClick={props.handleSectionClick.bind(this, 'experience')} className={props.activeSection == 'experience' ? 'navbar-active' : ''}><img className='navbar-link-icon' src={experienceIcon} alt="" />Experience</li>

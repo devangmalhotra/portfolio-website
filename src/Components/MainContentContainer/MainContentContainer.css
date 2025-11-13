@@ -22,15 +22,7 @@
 .page {
     display: grid;
     gap: 1rem;
-    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-    grid-template-columns: 1fr 1fr;
     height: 100%;
     
-}
-
-.inactive-page {
-    pointer-events: none;
-    transition: opacity 0.3s ease;
-    opacity: 0;
 }
 

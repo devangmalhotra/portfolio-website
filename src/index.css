@@ -11,6 +11,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --card-background-blue: #13234d;
+  --card-outline-text-blue: #00BCD4;
 }
 
 a {

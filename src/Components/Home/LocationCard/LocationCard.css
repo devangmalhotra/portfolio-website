@@ -1,14 +1,6 @@
 #location-card-container {
-    background-color: #13234d;
-    padding: 20px;
-    border: solid #00BCD4 2px;
     grid-column: 1 / 3;
     grid-row: 3;
-    border-radius: 5px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #location-card-content h4 {
