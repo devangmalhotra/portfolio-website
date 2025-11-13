@@ -1,14 +1,4 @@
-#phone-card-container {
-    background-color: #13234d;
-    border-radius: 5px;
-    border: solid #00BCD4 2px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
 #phone-card-content {
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
