@@ -8,6 +8,7 @@ import GithubCard from '../Home/GithubCard/GithubCard'
 import LinkedinCard from '../Home/LinkedinCard/LinkedinCard'
 import EmailCard from '../Contact/EmailCard/EmailCard'
 import PhoneCard from '../Contact/PhoneCard/PhoneCard'
+import DiscordCard from '../Contact/DiscordCard/DiscordCard'
 import { useState } from 'react'
 
 function MainContentContainer() {
@@ -39,6 +40,7 @@ function MainContentContainer() {
     <div id='contact-page' className={activeSection == 'contact' ? 'page' : 'page inactive-page'}>
                 <EmailCard />
                 <PhoneCard />
+                <DiscordCard />
             </div>
             ) }]
 

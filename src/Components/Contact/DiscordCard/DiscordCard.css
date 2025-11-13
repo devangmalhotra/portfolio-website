@@ -1,0 +1,21 @@
+#discord-card-container {
+    background-color: #13234d;
+    border-radius: 5px;
+    border: solid #00BCD4 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#discord-card-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discord-card-content img {
+    height: 30px;
+    margin: 0 5px;
+}
