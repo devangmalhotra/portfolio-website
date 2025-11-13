@@ -1,7 +1,3 @@
-#email-card-container {
-    position: relative;
-}
-
 #email-card-content {
     display: flex;
     justify-content: center;
