@@ -10,7 +10,7 @@
 }
 
 #clipboard-btn img {
-    height: 20px;
+    height: 20px !important;
 }
 
 #clipboard-btn:hover {
@@ -28,20 +28,13 @@
     background-color: #009e9e;
     padding: 5px;
     border-radius: 10px;
-    display: none;
+    
     border: 1px solid #00FFFF;
     box-shadow: 0 0 10px #00FFFF;
+    opacity: 0;
 }
 
 .copied-animating {
-    display: block !important;
-    animation: copiedAnimation 2s linear;
-}
-
-@keyframes copiedAnimation {
-    from {
-        opacity: 100%;
-    } to {
-        opacity: 0%;
-    }
+    opacity: 1 !important;
+    transform: translate(-50%, -50%) scale(1.05) !important;
 }

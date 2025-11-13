@@ -7,7 +7,6 @@ function CopyClipboardBtn(props) {
 
     const handleClick = async () => {
         await navigator.clipboard.writeText(props.text);
-        setAnimating(true);
     }
 
   return (
