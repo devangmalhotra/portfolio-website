@@ -12,8 +12,8 @@
 }
 
 .external-link:hover .icon {
-    background-color: black;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    background-color: black;
 }
 
 .external-link:hover .external-link-icon-container {
@@ -37,17 +37,6 @@
 .external-link-icon-container img {
     height: 17px;
 
-}
-
-.icon {
-    background-color: var(--text-main);
-    mask-size: contain;
-    mask-repeat: no-repeat;
-    height: 60px;
-    width: 60px;
-    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-    -webkit-mask-size: cover;
-    -webkit-mask-repeat: no-repeat; 
 }
 
 #github-icon {
