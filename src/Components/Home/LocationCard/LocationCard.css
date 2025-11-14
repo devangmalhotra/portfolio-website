@@ -19,7 +19,7 @@
 }
 
 #location-icon {
-    margin: 0 10px;
+    margin: 0 5px;
     height: 30px;
     width: 30px;
     mask-image: url('../../../assets/icons8-location-pin-50.png');

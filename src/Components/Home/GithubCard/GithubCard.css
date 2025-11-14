@@ -13,7 +13,7 @@
 
 .external-link:hover .icon {
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-    background-color: black;
+    background-color: var(--card-background);
 }
 
 .external-link:hover .external-link-icon-container {
