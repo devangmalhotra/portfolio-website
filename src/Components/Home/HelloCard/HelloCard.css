@@ -16,5 +16,5 @@
 
 #hello-card-container h5 {
     margin: 10px 0 0 0;
-    color: #00BCD4;
+    color: var(--subtext);
 }

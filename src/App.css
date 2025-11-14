@@ -41,13 +41,13 @@
 }
 
 .card {
-  background-color: var(--card-background-blue);
+  background-color: var(--card-background);
   border-radius: 5px;
-  border: solid var(--card-outline-text-blue) 2px;
+  border: solid  2px var(--card-border);
+  /*border-image: linear-gradient(to right, #2563eb, #9333ea) 1 round;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
 }
 
 .card-content {

@@ -1,18 +1,24 @@
 :root {
+  --background-main: #0A0A12;
+  --grid-square-border: #1A1A27;
+  --card-background: #151522;
+  --card-border: #2A2A40;
+  --text-main: #E4E6F0;
+  --subtext: #979BB2;
+  --accent: #7567FF;
+  --hover: #7567FF22;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(180deg, #1A1A2E, #16213E);
+  color: var(--text-main);
+  background: var(--background-main);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --card-background-blue: #022c60;
-  --card-outline-text-blue: #00BCD4;
 }
 
 a {
