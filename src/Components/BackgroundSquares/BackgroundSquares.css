@@ -13,7 +13,7 @@
 
 .background-square {
     background-color: transparent;
-    border: solid 1px #1A1A27;
+    border: solid 1px var(--grid-square-border);
     transition-duration: 4s;
     transition-property: background-color;
     aspect-ratio: 1;
@@ -21,7 +21,7 @@
 }
 
 .background-square:hover {
-    background-color: #7567FF22;
+    background-color: var(--hover);
     transition-duration: 0.7s;
 }
 
