@@ -7,9 +7,12 @@
 
 .external-link:hover {
     cursor: pointer;
-    border-color: #ff432b;
+    background-color: var(--accent);
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.external-link:hover .icon {
     background-color: black;
-    filter: invert(100%);
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
@@ -33,7 +36,23 @@
 
 .external-link-icon-container img {
     height: 17px;
-    
 
+}
+
+.icon {
+    background-color: var(--text-main);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat; 
+}
+
+#github-icon {
+    mask-image: url('../../../assets/icons8-github-64.png');
+    -webkit-mask-image: url('../../../assets/icons8-github-64.png');
+    
 }
 

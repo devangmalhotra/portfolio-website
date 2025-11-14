@@ -1,3 +1,9 @@
 #linkedin-card-container {
     grid-row: 2 / 3;
 }
+
+#linkedin-icon {
+    mask-image: url('../../../assets/icons8-linkedin-50.png');
+    -webkit-mask-image: url('../../../assets/icons8-linkedin-50.png');
+    
+}

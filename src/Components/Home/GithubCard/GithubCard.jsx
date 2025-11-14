@@ -1,6 +1,5 @@
 import React from 'react'
 import './GithubCard.css'
-import githubLogo from '../../../assets/icons8-github-64.png'
 import externalLinkIcon from '../../../assets/icons8-external-link-128.png'
 
 function GithubCard() {
@@ -15,7 +14,7 @@ function GithubCard() {
             <div className='external-link-icon-container'>
                 <img src={externalLinkIcon} alt="" />
             </div>
-            <img src={githubLogo} alt="" />
+            <div className='icon' id='github-icon'></div>
         </div>
     </div>
   )

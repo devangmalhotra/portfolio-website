@@ -1,6 +1,5 @@
 import React from 'react'
 import './LinkedinCard.css'
-import linkedinLogo from '../../../assets/icons8-linkedin-50.png'
 import externalLinkIcon from '../../../assets/icons8-external-link-128.png'
 
 function LinkedinCard() {
@@ -15,7 +14,7 @@ function LinkedinCard() {
             <div className='external-link-icon-container'>
                 <img src={externalLinkIcon} alt="" />
             </div>
-            <img src={linkedinLogo} alt="" />
+            <div className='icon' id='linkedin-icon'></div>
           </div>
       </div>
     )
