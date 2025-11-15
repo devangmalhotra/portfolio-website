@@ -8,3 +8,9 @@
     height: 30px;
     margin: 0 5px;
 }
+
+#discord-icon {
+    mask-image: url('../../../assets/icons8-github-64.png');
+    -webkit-mask-image: url('../../../assets/ContactIcons/icons8-discord-50.png');
+}
+

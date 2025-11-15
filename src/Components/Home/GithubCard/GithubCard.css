@@ -37,12 +37,10 @@
 
 .external-link-icon-container img {
     height: 17px;
-
 }
 
 #github-icon {
     mask-image: url('../../../assets/icons8-github-64.png');
     -webkit-mask-image: url('../../../assets/icons8-github-64.png');
-    
 }
 

@@ -7,7 +7,7 @@ function DiscordCard() {
   return (
     <div id='discord-card-container' className='card'>
         <div id='discord-card-content' className='card-content'>
-            <img src={discordIcon} alt="" /><h4>@devangmalhotra</h4>
+            <div className='icon contact-icon' id='discord-icon'></div><h4>@devangmalhotra</h4>
             <CopyClipboardBtn text='devangmalhotra'/>
         </div>
     </div>
