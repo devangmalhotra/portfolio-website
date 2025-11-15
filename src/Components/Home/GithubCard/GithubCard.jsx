@@ -14,7 +14,7 @@ function GithubCard() {
             <div className='external-link-icon-container'>
                 <img src={externalLinkIcon} alt="" />
             </div>
-            <div className='icon contact-icon' id='github-icon'></div>
+            <div className='icon' id='github-icon'></div>
         </div>
     </div>
   )
