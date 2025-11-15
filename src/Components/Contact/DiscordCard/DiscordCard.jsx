@@ -1,6 +1,5 @@
 import React from 'react'
 import './DiscordCard.css'
-import discordIcon from '../../../assets/ContactIcons/icons8-discord-50.png'
 import CopyClipboardBtn from '../../CopyClipboardBtn/CopyClipboardBtn'
 
 function DiscordCard() {

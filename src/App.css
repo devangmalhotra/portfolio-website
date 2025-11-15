@@ -68,3 +68,13 @@
   -webkit-mask-repeat: no-repeat; 
   background-color: var(--text-main);
 }
+
+.contact-icon {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+}
+
+.card-content h4 {
+    font-size: 20px;
+}

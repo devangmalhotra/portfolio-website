@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-#email-card-content img {
-    height: 30px;
-    margin: 0 5px;
+#email-icon {
+    mask-image: url('../../../assets/ContactIcons/icons8-email-48.png');
+    -webkit-mask-image: url('../../../assets/ContactIcons/icons8-email-48.png');
 }

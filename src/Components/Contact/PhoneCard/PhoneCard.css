@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-#phone-card-content img {
-    height: 30px;
-    margin: 0 5px;
+#phone-icon {
+    mask-image: url('../../../assets/ContactIcons/icons8-phone-30.png');
+    -webkit-mask-image: url('../../../assets/ContactIcons/icons8-phone-30.png');
 }

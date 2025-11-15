@@ -7,7 +7,7 @@ function PhoneCard() {
   return (
     <div id='phone-card-container' className='card'>
         <div id='phone-card-content' className='card-content'>
-            <img src={phoneIcon} alt="" /><h4>+1 (647) 806-2942</h4>
+            <div className='icon contact-icon' id='phone-icon'></div><h4>+1 (647) 806-2942</h4>
             <CopyClipboardBtn text='6478062942'/>
         </div>
     </div>
