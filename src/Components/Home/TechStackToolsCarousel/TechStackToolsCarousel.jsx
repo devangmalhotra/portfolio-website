@@ -6,13 +6,13 @@ import mysqlLogo from '../../../assets/TechStackIcons/icons8-sql-100.png'
 import officeLogo from '../../../assets/TechStackIcons/icons8-microsoft-office.svg'
 
 function TechStackToolsCarousel() {
-    const logos = [{ src: gitLogo, name:'Git' }, { src: dockerLogo, name:'Docker' }, { src: mysqlLogo, name:'MySQL' }, { src: officeLogo, name:'MS Office' }];
+    const logos = [{ src: gitLogo, name:'Git' }, { src: dockerLogo, name:'Docker' }, { src: mysqlLogo, name:'MySQL' }, { src: officeLogo, name:'Office' }];
 
     const renderLogos = () => {
         return (logos.map((item, index) => {
             return (
             <div className='logo-caption-container' key={index}>
-                <img key={index} src={item.src} alt={item.name} />
+                <div className='icon carousel-icon' id={item.name.toLowerCase() + "-icon"}></div>
                 <h5>{item.name}</h5>
             </div>
             )

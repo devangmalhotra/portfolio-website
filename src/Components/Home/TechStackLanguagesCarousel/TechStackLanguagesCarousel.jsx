@@ -14,7 +14,7 @@ function TechStackCarousel() {
         return logos.map((item, index) => {
             return (
             <div key={index}className='logo-caption-container'>
-                <img key={index} src={item.src} alt={item.name} />
+                <div className='icon carousel-icon' id={item.name.toLowerCase() + "-icon"}></div>
                 <h5>{item.name}</h5>
             </div>
         )

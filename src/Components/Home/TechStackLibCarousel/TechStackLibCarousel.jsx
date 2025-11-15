@@ -10,13 +10,13 @@ import expressLogo from '../../../assets/TechStackIcons/icons8-express-js-100.pn
 import puppeteerLogo from '../../../assets/TechStackIcons/output-onlinepngtools.png'
 
 function TechStackLibCarousel() {
-    const logos = [{ src: reactLogo, name: 'React' }, { src: pandasLogo, name: 'Pandas' }, { src: nodeLogo, name: 'Node.js' }, { src: tailwindLogo, name: 'Tailwind' }, { src: flaskLogo, name: 'Flask' }, { src: seleniumLogo, name: 'Selenium' }, { src: expressLogo, name: 'Express' }, { src: puppeteerLogo, name: 'Puppeteer' }];
+    const logos = [{ src: reactLogo, name: 'React' }, { src: pandasLogo, name: 'Pandas' }, { src: nodeLogo, name: 'NodeJS' }, { src: tailwindLogo, name: 'Tailwind' }, { src: flaskLogo, name: 'Flask' }, { src: seleniumLogo, name: 'Selenium' }, { src: expressLogo, name: 'Express' }, { src: puppeteerLogo, name: 'Puppeteer' }];
 
     const renderLogos = () => {
         return (logos.map((item, index) => {
             return (
             <div className='logo-caption-container' key={index}>
-                <img key={index} src={item.src} alt={item.name} />
+                <div className='icon carousel-icon' id={item.name.toLowerCase() + "-icon"}></div>
                 <h5>{item.name}</h5>
             </div>
         )

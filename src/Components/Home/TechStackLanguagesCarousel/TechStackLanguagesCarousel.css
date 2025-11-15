@@ -6,7 +6,7 @@
 
 .logo-caption-container {
     display: inline-block;
-    margin: 0;
+    margin: 0 10px;
 }
 
 .logo-caption-container h5 {
@@ -39,4 +39,40 @@
     } to {
         transform: translatex(-100%);
     }
+}
+
+#sql-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-mysql-96.png');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-mysql-96.png');
+}
+
+#java-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-java.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-java.svg');
+}
+
+#python-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-python.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-python.svg');
+}
+
+#html5-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-html-5.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-html-5.svg');
+}
+
+#css3-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-css3.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-css3.svg');
+}
+
+#javascript-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-javascript.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-javascript.svg');
+}
+
+.carousel-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
 }

@@ -1,0 +1,39 @@
+#react-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-react.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-react.svg');
+}
+
+#pandas-icon {
+    mask-image: url('../../../assets/TechStackIcons/favicon_white.ico');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/favicon_white.ico');
+}
+
+#nodejs-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-nodejs-96.png');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-nodejs-96.png');
+}
+
+#tailwind-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-tailwind-css-96.png');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-tailwind-css-96.png');
+}
+
+#flask-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-flask-100.png');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-flask-100.png');
+}
+
+#selenium-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-selenium.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-selenium.svg');
+}
+
+#express-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-express-js-100.png');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-express-js-100.png');
+}
+
+#puppeteer-icon {
+    mask-image: url('../../../assets/TechStackIcons/output-onlinepngtools.png');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/output-onlinepngtools.png');
+}

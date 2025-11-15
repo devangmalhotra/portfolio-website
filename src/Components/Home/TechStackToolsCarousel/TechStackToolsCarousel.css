@@ -1,0 +1,19 @@
+#git-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-git-250.png');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-git-250.png');
+}
+
+#docker-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-docker.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-docker.svg');
+}
+
+#mysql-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-mysql-96.png');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-mysql-96.png');
+}
+
+#office-icon {
+    mask-image: url('../../../assets/TechStackIcons/icons8-microsoft-office.svg');
+    -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-microsoft-office.svg');
+}
