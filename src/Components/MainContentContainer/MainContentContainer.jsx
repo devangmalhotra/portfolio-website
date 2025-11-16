@@ -9,6 +9,7 @@ import LinkedinCard from '../Home/LinkedinCard/LinkedinCard'
 import EmailCard from '../Contact/EmailCard/EmailCard'
 import PhoneCard from '../Contact/PhoneCard/PhoneCard'
 import DiscordCard from '../Contact/DiscordCard/DiscordCard'
+import ProjectCard from '../Projects/ProjectCard/ProjectCard'
 import { useState } from 'react'
 
 function MainContentContainer() {
@@ -34,7 +35,7 @@ function MainContentContainer() {
             </div>
             ) }, { name: 'projects', content: (
     <div id='projects-page' className='page'>
-                
+                <ProjectCard name='A.I. Tic-Tac-Toe' />
             </div>
             ) }, { name: 'contact', content: (
     <div id='contact-page' className='page'>
