@@ -1,8 +1,40 @@
-.project-card h2 {
+.project-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+}
+
+.project-card {
+    display: block;
+}
+
+.project-card-content h2 {
     font-size: 50px;
+    margin: 0;
 }
 
 .project-card p {
     font-size: 20px;
     margin: 0;
+}
+
+.project-img-container {
+    width: 700px;
+    height: 300px;
+    margin: 20px 0 20px 0;
+    zoom: normal;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: var(--card-border);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.project-card img {
+    height: 450px;
 }

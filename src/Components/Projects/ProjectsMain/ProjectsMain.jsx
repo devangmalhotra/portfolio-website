@@ -5,7 +5,7 @@ import ProjectCard from '../ProjectCard/ProjectCard'
 function ProjectsMain() {
   return (
     <div className='page'>
-        <ProjectCard name='A.I. Tic-Tac-Toe' />
+        <ProjectCard name='A.I. Tic-Tac-Toe' description='Exploring the minimax, alpha-beta-pruning, and expectiminimax algorithms with a 3x3 board.' />
     </div>
   )
 }
