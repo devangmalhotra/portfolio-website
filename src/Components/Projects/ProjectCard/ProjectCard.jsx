@@ -3,8 +3,9 @@ import './ProjectCard.css'
 
 function ProjectCard(props) {
   return (
-    <div className='card'>
-        <h1>{props.name}</h1>
+    <div className='project-card card'>
+        <h2>{props.name}</h2>
+        <p>hg</p>
     </div>
   )
 }
