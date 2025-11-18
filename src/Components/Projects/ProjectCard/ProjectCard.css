@@ -41,11 +41,14 @@
 }
 
 .stack-badges {
-    margin: 10px;
+    margin: 20px;
 }
 
 .stack-badges div {
     display: inline;
     margin: 10px;
     font-weight: bold;
+    background-color: var(--background-main);
+    padding: 5px;
+    border-radius: 5px;
 }
