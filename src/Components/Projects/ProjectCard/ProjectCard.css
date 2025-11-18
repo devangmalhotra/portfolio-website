@@ -37,4 +37,15 @@
 
 .project-card img {
     height: 450px;
+    opacity: 50%;
+}
+
+.stack-badges {
+    margin: 10px;
+}
+
+.stack-badges div {
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
 }
