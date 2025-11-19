@@ -14,18 +14,27 @@ function ProjectCard(props) {
     <div className='project-card card'>
         <div className='card-content project-card-content'>
             <h2>{props.name}</h2>
-            <div className='project-img-container'>
-                <img src={ticTacToeScreenshot} alt="Tic-Tac-Toe Screenshot" />
-            </div>
-            <p>{props.description}</p>
-            <div className='stack-badges'>
-                {renderStackBadges()}
-            </div>
-            <div className='project-external-links-container'>
-                <div className='project-external-link'>
-                    <div className='project-external-link-github-icon icon'></div>
-                    <h4>GitHub</h4>
+            <div className='projects-img-info-container'>
+                <div className='project-img-container'>
+                    <img src={ticTacToeScreenshot} alt="Tic-Tac-Toe Screenshot" />
                 </div>
+                <div className='project-info-container'>
+                    <p>{props.description}</p>
+                    <div className='stack-badges'>
+                        {renderStackBadges()}
+                    </div>
+                    <div className='project-external-links-container'>
+                        <div className='project-external-link'>
+                            <div className='project-external-link-github-icon icon'></div>
+                            <h4>GitHub</h4>
+                        </div>
+                        <div className='project-external-link'>
+                            <div className='project-external-link-demo-icon icon'></div>
+                            <h4>Demo</h4>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
         

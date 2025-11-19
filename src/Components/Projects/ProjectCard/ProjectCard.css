@@ -22,7 +22,7 @@
 }
 
 .project-img-container {
-    width: 700px;
+    width: 400px;
     height: 300px;
     margin: 20px 0 20px 0;
     zoom: normal;
@@ -57,10 +57,11 @@
     background-color: var(--background-main);
     padding: 5px;
     border-radius: 5px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin: 0 10px;
 }
 
 .project-external-link-github-icon {
@@ -69,6 +70,29 @@
     mask-image: url('../../../assets/icons8-github-64.png');
 }
 
+.project-external-link-demo-icon {
+    width: 30px;
+    height: 30px;
+    mask-image: url('../../../assets/icons8-external-link-128.png');
+}
+
 .project-external-link h4 {
     margin: 0;
+}
+
+.projects-img-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    gap: 20px;
+}
+
+.project-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
 }
