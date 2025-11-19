@@ -44,13 +44,15 @@
     margin: 0 0 5px 0;
 }
 
-.stack-badges div {
+.stack-badge {
     display: inline-block;
     margin: 5px;
     font-weight: bold;
     background-color: var(--background-main);
     padding: 5px;
     border-radius: 5px;
+    border: solid 1px;
+    border-color: var(--card-border);
 }
 
 .project-external-link {
@@ -63,6 +65,8 @@
     gap: 10px;
     margin: 0 10px;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    border: solid 1px;
+    border-color: var(--accent);
 }
 
 .project-external-link:hover {
@@ -80,20 +84,21 @@
 }
 
 .project-external-link-github-icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     mask-image: url('../../../assets/icons8-github-64.png');
 }
 
 .project-external-link-demo-icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     mask-image: url('../../../assets/icons8-external-link-128.png');
 }
 
 .project-external-link h4 {
     margin: 0;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    font-size: 15px;
 }
 
 .projects-img-info-container {
