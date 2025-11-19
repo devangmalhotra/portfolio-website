@@ -21,6 +21,12 @@ function ProjectCard(props) {
             <div className='stack-badges'>
                 {renderStackBadges()}
             </div>
+            <div className='project-external-links-container'>
+                <div className='project-external-link'>
+                    <div className='project-external-link-github-icon icon'></div>
+                    <h4>GitHub</h4>
+                </div>
+            </div>
         </div>
         
     </div>

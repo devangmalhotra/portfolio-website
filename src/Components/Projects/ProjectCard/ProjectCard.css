@@ -52,3 +52,23 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+.project-external-link {
+    background-color: var(--background-main);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project-external-link-github-icon {
+    width: 30px;
+    height: 30px;
+    mask-image: url('../../../assets/icons8-github-64.png');
+}
+
+.project-external-link h4 {
+    margin: 0;
+}
