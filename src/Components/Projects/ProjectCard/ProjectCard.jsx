@@ -1,6 +1,5 @@
 import React from 'react'
 import './ProjectCard.css'
-import ticTacToeScreenshot from '../../../assets/ProjectScreenshots/tic-tac-toe-screenshot.png'
 
 function ProjectCard(props) {
     const renderStackBadges = () => {
@@ -20,7 +19,7 @@ function ProjectCard(props) {
             <h2>{props.name}</h2>
             <div className='projects-img-info-container'>
                 <div className='project-img-container'>
-                    <img src={ticTacToeScreenshot} alt="Tic-Tac-Toe Screenshot" />
+                    <img src={props.image} alt="Tic-Tac-Toe Screenshot" />
                 </div>
                 <div className='project-info-container'>
                     <p>{props.description}</p>

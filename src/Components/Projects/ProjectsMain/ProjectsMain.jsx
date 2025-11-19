@@ -4,9 +4,11 @@ import ProjectCard from '../ProjectCard/ProjectCard'
 import ProjectsNavigator from '../ProjectsNavigator/ProjectsNavigator'
 import { useState } from 'react'
 import ticTacToeScreenshot from '../../../assets/ProjectScreenshots/tic-tac-toe-screenshot.png'
+import housingDashboardScreenshot from '../../../assets/ProjectScreenshots/housing-dashboard-screenshot.png'
+import calculatorScreenshot from '../../../assets/ProjectScreenshots/calculator-screenshot.png'
 
 function ProjectsMain() {
-  const projectCards = [ { content: (<ProjectCard name='A.I. Tic-Tac-Toe' description='Exploring the minimax, alpha-beta-pruning, and expectiminimax algorithms with a 3x3 board.' stack={["React", "Express", "PostgreSQL"]} githubLink='https://github.com/devangmalhotra/ai-tic-tac-toe' demoLink='https://devangmalhotra-tic-tac-toe.netlify.app/'/>) }, { content: (<ProjectCard name='Student Housing' description='Test.' stack={["React", "Express", "MySQL", "Puppeteer"]} githubLink='https://github.com/devangmalhotra/student-housing-industry-analysis' demoLink='https://student-housing-industry-analysis.netlify.app/'/>) }]
+  const projectCards = [ { content: (<ProjectCard name='A.I. Tic-Tac-Toe' description='Exploring the minimax, alpha-beta-pruning, and expectiminimax algorithms with a 3x3 board.' stack={["React", "Express", "PostgreSQL"]} githubLink='https://github.com/devangmalhotra/ai-tic-tac-toe' demoLink='https://devangmalhotra-tic-tac-toe.netlify.app/' image={ticTacToeScreenshot}/>) }, { content: (<ProjectCard name='Student Housing' description='Understanding the student housing industry in some of the major areas in Ontario.' stack={["React", "Express", "MySQL", "Puppeteer"]} githubLink='https://github.com/devangmalhotra/student-housing-industry-analysis' demoLink='https://student-housing-industry-analysis.netlify.app/' image={housingDashboardScreenshot}/>) }, { content: (<ProjectCard name='Calculator' description='Exploring the minimax, alpha-beta-pruning, and expectiminimax algorithms with a 3x3 board.' stack={["HTML", "Tailwind CSS", "JavaScript"]} githubLink='https://github.com/devangmalhotra/Calculator' demoLink='https://calculator-devangmalhotra.netlify.app/' image={calculatorScreenshot}/>) }]
 
   let [projectIndexToDisplay, setProjectIndexToDisplay] = useState(0);
 
