@@ -5,17 +5,28 @@
     position: relative;
 }
 
-#projects-navigator-backward-pic {
+#project-navigator-backward-pic {
     mask-image: url('../../../assets/icons8-back-100.png');
     margin: 0 20px;
     align-self: stretch;
     position: absolute;
 }
 
-#projects-navigator-forward-pic {
+#project-navigator-forward-pic {
     mask-image: url('../../../assets/icons8-forward-100.png');
     margin: 0 20px;
     align-self: stretch;
     position: absolute;
     right: 0;
+}
+
+#project-navigator-back,  #project-navigator-forward {
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+#project-navigator-back:hover,  #project-navigator-forward:hover {
+    cursor: pointer;
+    border-color: white;
+    background-color: var(--navigator-hover-card-background);
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
