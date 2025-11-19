@@ -5,7 +5,7 @@ import ticTacToeScreenshot from '../../../assets/ProjectScreenshots/tic-tac-toe-
 function ProjectCard(props) {
     const renderStackBadges = () => {
         return props.stack.map((item, index) => {
-            return (<div key={index}>{item}</div>)
+            return (<div className='stack-badge' key={index}><h5>{item}</h5></div>)
         })
     }
 
