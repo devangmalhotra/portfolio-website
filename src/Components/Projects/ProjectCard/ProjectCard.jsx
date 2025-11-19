@@ -10,6 +10,11 @@ function ProjectCard(props) {
         })
     }
 
+    const handleLinkClick = link => {
+        const newWindow = window.open(link, '_blank', 'noopener,noreferrer');
+        if (newWindow) newWindow.opener = null;
+    }
+
   return (
     <div className='project-card card'>
         <div className='card-content project-card-content'>
@@ -24,11 +29,11 @@ function ProjectCard(props) {
                         {renderStackBadges()}
                     </div>
                     <div className='project-external-links-container'>
-                        <div className='project-external-link'>
+                        <div className='project-external-link' onClick={handleLinkClick.bind(this, props.githubLink)}>
                             <div className='project-external-link-github-icon icon'></div>
                             <h4>GitHub</h4>
                         </div>
-                        <div className='project-external-link'>
+                        <div className='project-external-link' onClick={handleLinkClick.bind(this, props.demoLink)}>
                             <div className='project-external-link-demo-icon icon'></div>
                             <h4>Demo</h4>
                         </div>
