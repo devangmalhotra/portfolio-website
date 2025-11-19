@@ -3,8 +3,9 @@ import './ProjectsNavigator.css'
 
 function ProjectsNavigator() {
   return (
-    <div id='project-navigator-container' className='card'>
-        <div id='project-navigator-back'></div>
+    <div id='project-navigator-container' className=''>
+        <div id='project-navigator-back' className='card'></div>
+        <div id='project-navigator-forward' className='card'></div>
     </div>
   )
 }

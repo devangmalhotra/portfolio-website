@@ -1,7 +1,6 @@
 import React from 'react'
 import './ProjectCard.css'
 import ticTacToeScreenshot from '../../../assets/ProjectScreenshots/tic-tac-toe-screenshot.png'
-import ProjectStackLabel from '../ProjectStackLabel/ProjectStackLabel'
 
 function ProjectCard(props) {
     const renderStackBadges = () => {
