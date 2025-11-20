@@ -31,10 +31,10 @@ function ProjectCard(props) {
                             <div className='project-external-link-github-icon icon'></div>
                             <h4>GitHub</h4>
                         </div>
-                        <div className='project-external-link' onClick={handleLinkClick.bind(this, props.demoLink)}>
+                        {props.demoLink ? (<div className='project-external-link' onClick={handleLinkClick.bind(this, props.demoLink)}>
                             <div className='project-external-link-demo-icon icon'></div>
                             <h4>Demo</h4>
-                        </div>
+                        </div>) : ''}
                     </div>
                 </div>
                 
