@@ -9,6 +9,7 @@
 
 .project-card {
     display: block;
+    position: relative;
 }
 
 .project-card-content h2 {
@@ -123,5 +124,16 @@
 }
 
 .stack-badge h5 {
+    margin: 0;
+}
+
+.project-counter {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.project-counter h5 {
     margin: 0;
 }

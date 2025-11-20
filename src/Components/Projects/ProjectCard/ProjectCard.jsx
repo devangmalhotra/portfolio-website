@@ -37,7 +37,9 @@ function ProjectCard(props) {
                         </div>) : ''}
                     </div>
                 </div>
-                
+                <div className='project-counter'>
+                    <h5>{props.index + 1}</h5>
+                </div>
             </div>
         </div>
         
