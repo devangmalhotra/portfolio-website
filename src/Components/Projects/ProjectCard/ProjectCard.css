@@ -50,6 +50,10 @@
     margin: 5px 0 20px 0;
 }
 
+.stack-badge:first-child {
+    margin: 0 5px 0 0;
+}
+
 .stack-badge {
     display: inline-block;
     margin: 0 5px;
@@ -77,6 +81,10 @@
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     border: solid 1px;
     border-color: var(--accent);
+}
+
+.project-external-link:first-child {
+    margin: 0 5px 0 0;
 }
 
 .project-external-link:hover {
@@ -124,12 +132,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 350px;
 }
 
 .project-info-container p {
     margin: 5px 0 20px 0;
+    text-align: left;
 }
 
 .stack-badge h5 {
