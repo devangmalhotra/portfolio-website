@@ -4,7 +4,7 @@ import './ProjectCard.css'
 function ProjectCard(props) {
     const renderStackBadges = () => {
         return props.stack.map((item, index) => {
-            return (<div className='stack-badge' key={index}><h5>{item}</h5></div>)
+            return (<div className='stack-badge' key={index}><h4>{item}</h4></div>)
         })
     }
 
@@ -22,10 +22,13 @@ function ProjectCard(props) {
                     <img src={props.image} alt="Tic-Tac-Toe Screenshot" />
                 </div>
                 <div className='project-info-container'>
+                    <p className='card-description-header'>Overview</p>
                     <p>{props.description}</p>
+                    <p className='card-description-header'>Stack</p>
                     <div className='stack-badges'>
                         {renderStackBadges()}
                     </div>
+                    <p className='card-description-header'>Actions</p>
                     <div className='project-external-links-container'>
                         <div className='project-external-link' onClick={handleLinkClick.bind(this, props.githubLink)}>
                             <div className='project-external-link-github-icon icon'></div>

@@ -22,6 +22,11 @@
     margin: 0;
 }
 
+.card-description-header {
+    font-weight: bold;
+    margin: 0 !important;
+}
+
 .project-img-container {
     width: 400px;
     height: 400px;
@@ -42,18 +47,22 @@
 }
 
 .stack-badges {
-    margin: 0 0 5px 0;
+    margin: 5px 0 20px 0;
 }
 
 .stack-badge {
     display: inline-block;
-    margin: 5px;
+    margin: 0 5px;
     font-weight: bold;
     background-color: var(--background-main);
     padding: 5px;
     border-radius: 5px;
     border: solid 1px;
     border-color: var(--card-border);
+}
+
+.project-external-links-container {
+    margin: 5px 0 20px 0;
 }
 
 .project-external-link {
@@ -64,7 +73,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin: 0 10px;
+    margin: 0 5px;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     border: solid 1px;
     border-color: var(--accent);
@@ -96,7 +105,7 @@
     mask-image: url('../../../assets/icons8-external-link-128.png');
 }
 
-.project-external-link h4 {
+.project-external-link h4, .stack-badge h4 {
     margin: 0;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     font-size: 15px;
@@ -120,7 +129,7 @@
 }
 
 .project-info-container p {
-    margin: 20px 0;
+    margin: 5px 0 20px 0;
 }
 
 .stack-badge h5 {
@@ -136,4 +145,5 @@
 
 .project-counter h5 {
     margin: 0;
+    user-select: none;
 }
