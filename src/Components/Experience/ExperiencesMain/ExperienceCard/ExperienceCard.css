@@ -1,3 +1,35 @@
 .experience-card {
     align-self: stretch;
+    text-align: left;
+}
+
+.experience-card ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.experience-card-content {
+    padding: 0 30px;
+}
+
+.experience-description-container h4 {
+    margin: 0;
+}
+
+.experience-card-content h2 {
+    margin: 10px 0;
+}
+
+.experience-description-date-location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-description-role-notes span {
+    font-size: 30px;
+}
+
+.experience-description-role-notes {
+    margin: 40px 0;
 }
