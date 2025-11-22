@@ -10,6 +10,7 @@ import EmailCard from '../Contact/EmailCard/EmailCard'
 import PhoneCard from '../Contact/PhoneCard/PhoneCard'
 import DiscordCard from '../Contact/DiscordCard/DiscordCard'
 import ProjectsMain from '../Projects/ProjectsMain/ProjectsMain'
+import ExperiencesMain from '../Experience/ExperiencesMain/ExperiencesMain'
 import { useState } from 'react'
 
 function MainContentContainer() {
@@ -30,15 +31,15 @@ function MainContentContainer() {
                 <LinkedinCard />
             </div>
             ) }, { name: 'experience', content: (
-    <div id='experience-page' className='page'>
-                
+    <div id='experiences-page'>
+                <ExperiencesMain />
             </div>
             ) }, { name: 'projects', content: (
     <div id='projects-page'>
                 <ProjectsMain />
             </div>
             ) }, { name: 'contact', content: (
-    <div id='contact-page' className='page'>
+    <div id='contact-page'>
                 <EmailCard />
                 <PhoneCard />
                 <DiscordCard />
@@ -55,6 +56,7 @@ function MainContentContainer() {
         <div id='pages-container'>
             {renderActiveSection()}
         </div>
+
     </div>
   )
 }
