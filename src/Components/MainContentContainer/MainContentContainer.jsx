@@ -39,7 +39,7 @@ function MainContentContainer() {
                 <ProjectsMain />
             </div>
             ) }, { name: 'contact', content: (
-    <div id='contact-page'>
+    <div id='contact-page' className='page'>
                 <EmailCard />
                 <PhoneCard />
                 <DiscordCard />
