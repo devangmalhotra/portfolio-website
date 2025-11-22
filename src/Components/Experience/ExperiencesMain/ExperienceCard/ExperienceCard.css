@@ -33,3 +33,7 @@
 .experience-description-role-notes {
     margin: 40px 0;
 }
+
+.experience-description-role-notes p {
+    font-size: small;
+}
