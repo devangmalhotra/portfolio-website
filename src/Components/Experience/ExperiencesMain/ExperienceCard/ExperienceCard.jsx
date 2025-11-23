@@ -5,7 +5,12 @@ function ExperienceCard(props) {
   return (
     <div className='experience-card card'>
         <div className='experience-card-content'>
-            <h2>{props.title}</h2>
+            <div className='experience-card-content-header'>
+                <h2>{props.title}</h2>
+                <div className='experience-current-badge'>
+                    {props.current && (<h4>Current</h4>)}
+                </div>
+            </div>
             <div className='experience-description-container'>
                 <div className='experience-description-date-location'>
                     <h4>{props.dateRange}</h4>
