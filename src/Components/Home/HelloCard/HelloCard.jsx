@@ -6,8 +6,8 @@ function HelloCard() {
   return (
     <div id='hello-card-container' className='card'>
       <div id='hello-card-content' className='card-content'>
-        <h2>Hi There, I'm Devang Malhotra</h2>
-        <h5>4th Year BBA and CS Student</h5>
+        <h2>Hi There, I'm Devang Malhotra! 👋</h2>
+        <h5>4th Year BBA and CS Student @ Wilfid Laurier University</h5>
         <ContactBtn />
       </div>
     </div>
