@@ -11,6 +11,7 @@ import PhoneCard from '../Contact/PhoneCard/PhoneCard'
 import DiscordCard from '../Contact/DiscordCard/DiscordCard'
 import ProjectsMain from '../Projects/ProjectsMain/ProjectsMain'
 import ExperiencesMain from '../Experience/ExperiencesMain/ExperiencesMain'
+import { motion } from "motion/react"
 import { useState } from 'react'
 
 function MainContentContainer() {
@@ -51,13 +52,13 @@ function MainContentContainer() {
     }
 
   return (
-    <div id='main-content-container'>
+    <motion.div id='main-content-container' initial={{ scale: 0 }} animate={{ scale: 1 }} style={{x:'-50%', y:'-50%'}} >
         <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection}/>
         <div id='pages-container'>
             {renderActiveSection()}
         </div>
 
-    </div>
+    </motion.div>
   )
 }
 
