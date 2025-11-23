@@ -11,6 +11,7 @@ function ExperienceCard(props) {
                     {props.current && (<h4>Current</h4>)}
                 </div>
             </div>
+            <h4 className='experience-position-text'>{props.position}</h4>
             <div className='experience-description-container'>
                 <div className='experience-description-date-location'>
                     <h4>{props.dateRange}</h4>

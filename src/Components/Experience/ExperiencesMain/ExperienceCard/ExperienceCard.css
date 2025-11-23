@@ -10,7 +10,7 @@
 }
 
 .experience-card-content {
-    padding: 0 30px;
+    padding: 10px 30px;
 }
 
 .experience-description-container h4 {
@@ -18,12 +18,13 @@
 }
 
 .experience-card-content h2 {
-    margin: 10px 0;
+    margin: 0
 }
 
 .experience-description-date-location {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;
 }
 
 .experience-description-role-notes span {
@@ -57,4 +58,9 @@
     justify-content: center;
     border-radius: 5px;
     color: var(--card-background);
+    margin: 0;
+}
+
+.experience-position-text {
+    margin: 0;
 }
