@@ -23,11 +23,11 @@ function TechStackCarousel() {
 
   return (
     <div className='logos'>
-        <div className='logos-slide'>
+        <div className='logos-slide languages-slide'>
             {renderLogos()}
             {renderLogos()}
         </div>
-        <div className='logos-slide'>
+        <div className='logos-slide languages-slide'>
             {renderLogos()}
             {renderLogos()}
         </div>

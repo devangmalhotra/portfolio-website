@@ -17,9 +17,12 @@
 
 .logos-slide {
     display: inline-block;
-    animation: 40s slide infinite linear;
     padding: 0;
     margin: 0;
+}
+
+.languages-slide {
+    animation: 25s slide infinite linear;
 }
 
 .logos {
@@ -27,6 +30,28 @@
     width: 700px;
     padding: 20px 0 0 0;
     overflow: hidden;
+    position: relative;
+}
+
+.logos:before {
+    content: '';
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0), var(--card-background));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logos:after {
+    content: '';
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), var(--card-background));
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .logos:hover .logos-slide {

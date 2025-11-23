@@ -17,3 +17,7 @@
     mask-image: url('../../../assets/TechStackIcons/icons8-microsoft-office.svg');
     -webkit-mask-image: url('../../../assets/TechStackIcons/icons8-microsoft-office.svg');
 }
+
+.tools-slide {
+    animation: 15s slide infinite linear;
+}

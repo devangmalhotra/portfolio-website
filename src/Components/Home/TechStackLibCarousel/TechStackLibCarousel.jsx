@@ -25,11 +25,11 @@ function TechStackLibCarousel() {
 
   return (
     <div className='logos'>
-        <div className='logos-slide'>
+        <div className='logos-slide-reverse lib-slide'>
             {renderLogos()}
             {renderLogos()}
         </div>
-        <div className='logos-slide'>
+        <div className='logos-slide lib-slide'>
             {renderLogos()}
             {renderLogos()}
         </div>
