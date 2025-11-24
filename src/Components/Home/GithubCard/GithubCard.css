@@ -1,14 +1,12 @@
 .external-link {
     align-self: stretch;
     align-items: center;
-    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    
     position: relative;
 }
 
 .external-link:hover {
     cursor: pointer;
-    background-color: var(--accent);
-    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .external-link:hover .icon {

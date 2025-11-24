@@ -3,10 +3,11 @@ import './TechStackCard.css'
 import TechStackLanguagesCarousel from '../TechStackLanguagesCarousel/TechStackLanguagesCarousel'
 import TechStackLibCarousel from '../TechStackLibCarousel/TechStackLibCarousel'
 import TechStackToolsCarousel from '../TechStackToolsCarousel/TechStackToolsCarousel'
+import { motion } from 'motion/react'
 
 function TechStackCard() {
   return (
-    <div id='tech-stack-card-container' className='card'>
+    <motion.div id='tech-stack-card-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}>
         <div id='tech-stack-card-content' className='card-content'>
             <h2>What's My Tech Stack Looking Like?</h2>
             <div className='carousel'>
@@ -23,7 +24,7 @@ function TechStackCard() {
             </div>
             
         </div>
-    </div>
+    </motion.div>
   )
 }
 

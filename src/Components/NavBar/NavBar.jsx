@@ -1,14 +1,11 @@
 import React from 'react'
 import './NavBar.css'
-import homeIcon from '../../assets/NavBarIcons/icons8-home-50.png'
-import experienceIcon from '../../assets/NavBarIcons/icons8-briefcase-64.png'
-import projectsIcon from '../../assets/NavBarIcons/icons8-projects-50.png'
-import contactIcon from '../../assets/NavBarIcons/icons8-contact-50.png'
+import { motion } from 'motion/react'
 
 function NavBar(props) {
 
   return (
-    <div id='navbar-card-container' className='card'>
+    <motion.div id='navbar-card-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}>
         <nav className='navbar card-content'>
             <ul className='navbar-links'>
                 <li onClick={props.handleSectionClick.bind(this, 'home')} className={props.activeSection == 'home' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='home-icon'></div>Home</li>
@@ -17,7 +14,7 @@ function NavBar(props) {
                 <li onClick={props.handleSectionClick.bind(this, 'contact')} className={props.activeSection == 'contact' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='contact-icon'></div>Contact</li>
             </ul>
         </nav>
-    </div>
+    </motion.div>
   )
 }
 

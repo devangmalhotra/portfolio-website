@@ -1,9 +1,10 @@
 import React from 'react'
 import './ExperienceCard.css'
+import { motion } from 'motion/react'
 
 function ExperienceCard(props) {
   return (
-    <div className='experience-card card'>
+    <motion.div className='experience-card card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}>
         <div className='experience-card-content'>
             <div className='experience-card-content-header'>
                 <h2>{props.title}</h2>
@@ -26,7 +27,7 @@ function ExperienceCard(props) {
                 </div>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

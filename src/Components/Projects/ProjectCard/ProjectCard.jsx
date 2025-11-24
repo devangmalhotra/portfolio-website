@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProjectCard.css'
+import { motion } from 'motion/react'
 
 function ProjectCard(props) {
     const renderStackBadges = () => {
@@ -14,12 +15,12 @@ function ProjectCard(props) {
     }
 
   return (
-    <div className='project-card card'>
+    <motion.div className='project-card card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }} key={props.index}>
         <div className='card-content project-card-content'>
             <h2>{props.name}</h2>
             <div className='projects-img-info-container'>
                 <div className='project-img-container'>
-                    <img src={props.image} alt="Tic-Tac-Toe Screenshot" />
+                    <img src={props.image} alt="Screenshot" />
                 </div>
                 <div className='project-info-container'>
                     <p className='card-description-header'>Overview</p>
@@ -46,7 +47,7 @@ function ProjectCard(props) {
             </div>
         </div>
         
-    </div>
+    </motion.div>
   )
 }
 

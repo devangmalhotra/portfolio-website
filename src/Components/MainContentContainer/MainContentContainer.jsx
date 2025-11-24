@@ -52,7 +52,7 @@ function MainContentContainer() {
     }
 
   return (
-    <motion.div id='main-content-container' initial={{ scale: 0 }} animate={{ scale: 1 }} style={{ x:'-50%', y:'-50%' }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }} >
+    <motion.div id='main-content-container' >
         <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection}/>
         <div id='pages-container'>
             {renderActiveSection()}
