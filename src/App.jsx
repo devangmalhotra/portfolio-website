@@ -10,7 +10,10 @@ function App() {
   return (
     <div id='main'>
       <BackgroundSquares />
-      <MainContentContainer />
+      <div id='desktop-view'>
+        <MainContentContainer />
+      </div>
+      <div id='mobile-view'></div>
     </div>
   )
 }
