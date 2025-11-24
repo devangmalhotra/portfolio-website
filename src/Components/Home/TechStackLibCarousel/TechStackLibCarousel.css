@@ -44,3 +44,7 @@
     padding: 0;
     margin: 0;
 }
+
+.logos:hover .logos-slide-reverse {
+    animation-play-state: paused;
+}
