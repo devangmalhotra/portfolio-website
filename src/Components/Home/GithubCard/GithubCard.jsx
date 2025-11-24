@@ -10,7 +10,7 @@ function GithubCard() {
     };
 
   return (
-    <motion.div id='github-card-container' className='card external-link' onClick={handleClick} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }} whileHover={{ backgroundColor: "var(--accent)", duration: 0.3, ease:[0.7, 0, 0.2, 1]}}>
+    <motion.div id='github-card-container' className='card external-link' onClick={handleClick} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }} whileHover={{ backgroundColor: "var(--accent)", transition: { duration: 0.3 } }}>
         <div id='github-card-content' className='card-content'>
             <div className='external-link-icon-container'>
                 <img src={externalLinkIcon} alt="" />

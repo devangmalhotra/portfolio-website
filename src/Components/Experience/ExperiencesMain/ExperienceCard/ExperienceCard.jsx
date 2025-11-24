@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 
 function ExperienceCard(props) {
   return (
-    <motion.div className='experience-card card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}>
+    <motion.div className='experience-card card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }}>
         <div className='experience-card-content'>
             <div className='experience-card-content-header'>
                 <h2>{props.title}</h2>

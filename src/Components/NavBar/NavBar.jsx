@@ -5,7 +5,7 @@ import { motion } from 'motion/react'
 function NavBar(props) {
 
   return (
-    <motion.div id='navbar-card-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}>
+    <motion.div id='navbar-card-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }}>
         <nav className='navbar card-content'>
             <ul className='navbar-links'>
                 <li onClick={props.handleSectionClick.bind(this, 'home')} className={props.activeSection == 'home' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='home-icon'></div>Home</li>

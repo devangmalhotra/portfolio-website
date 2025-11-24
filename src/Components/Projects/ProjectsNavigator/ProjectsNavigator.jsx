@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 
 function ProjectsNavigator(props) {
   return (
-    <motion.div id='project-navigator-container' className='' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}>
+    <motion.div id='project-navigator-container' className='' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }}>
         <div id='project-navigator-back' className='card' onClick={props.moveBackward}>
             <div id='project-navigator-backward-pic' className='icon'></div>
         </div>

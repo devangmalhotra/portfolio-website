@@ -15,7 +15,7 @@ function ProjectCard(props) {
     }
 
   return (
-    <motion.div className='project-card card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }} key={props.index}>
+    <motion.div className='project-card card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }} key={props.index}>
         <div className='card-content project-card-content'>
             <h2>{props.name}</h2>
             <div className='projects-img-info-container'>
