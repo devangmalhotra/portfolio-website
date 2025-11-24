@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import BackgroundSquares from './Components/BackgroundSquares/BackgroundSquares'
 import MainContentContainer from './Components/MainContentContainer/MainContentContainer'
+import MainContentContainerMobile from './Components/MainContentContainerMobile/MainContentContainerMobile'
 
 function App() {
 
@@ -13,7 +14,9 @@ function App() {
       <div id='desktop-view'>
         <MainContentContainer />
       </div>
-      <div id='mobile-view'></div>
+      <div id='mobile-view'>
+        <MainContentContainerMobile />
+      </div>
     </div>
   )
 }

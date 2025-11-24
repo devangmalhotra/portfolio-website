@@ -1,0 +1,21 @@
+#main-content-container-mobile {
+    position: relative;
+    z-index: 999;
+    padding: 20px;
+}
+
+#main-content-container-mobile h2 {
+    font-size: larger;
+}
+
+#main-content-container-mobile h5, #main-content-container-mobile button {
+    font-size: small;
+}
+
+#main-content-container-mobile h4 {
+    font-size: medium;
+}
+
+#main-content-container-mobile .logos {
+    width: auto;
+}
