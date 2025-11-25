@@ -10,12 +10,16 @@ import NavBar from '../NavBar/NavBar'
 function MainContentContainerMobile() {
   return (
     <div id='main-content-container-mobile'>
-        <div id='mobile-navbar-hamburger'></div>
-        <HelloCard />
-        <LocationCard />
-        <TechStackCard />
-        <GithubCard />
-        <LinkedinCard />
+        <div id='mobile-navbar-hamburger-container' className='card'>
+            <div id='mobile-navbar-hamburger' className='icon'></div>
+        </div>
+        <div id='mobile-pages-container'>
+            <HelloCard />
+            <LocationCard />
+            <TechStackCard />
+            <GithubCard />
+            <LinkedinCard />
+        </div>
     </div>
   )
 }

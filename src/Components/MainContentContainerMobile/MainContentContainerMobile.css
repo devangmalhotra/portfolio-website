@@ -3,8 +3,12 @@
     z-index: 999;
     padding: 20px;
     overflow: scroll;
+}
+
+#mobile-pages-container {
     display: grid;
     gap: 1rem;
+    margin: 20px 0;
 }
 
 #main-content-container-mobile h2 {
@@ -46,4 +50,19 @@
 #main-content-container-mobile #linkedin-card-container {
     grid-column: 1;
     grid-row: 5;
+}
+
+#mobile-navbar-hamburger-container {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mobile-navbar-hamburger {
+    mask-image: url('../../assets/icons8-hamburger-menu-100.png');
+    height: 60%;
+    width: 60%;
+    background-color: white;
 }
