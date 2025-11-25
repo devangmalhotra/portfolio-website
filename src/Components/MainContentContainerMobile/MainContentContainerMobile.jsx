@@ -16,6 +16,7 @@ import { useState } from 'react'
 
 function MainContentContainerMobile() {
     const [activeSection, setActiveSection] = useState('home');
+    const [navBarOpen, setNavBarOpen] = useState(false);
 
     const sections = [{ name: 'home', content: (
     <div id='home-page' className='page'>
@@ -41,16 +42,29 @@ function MainContentContainerMobile() {
             </div>
             ) }]
 
+    const handleSectionClick = (section) => {
+        setActiveSection(section);
+
+        console.log("Section changed to:", section);
+    }
+
     const renderActiveSection = () => {
         return sections.find(section => section.name === activeSection).content
     }
 
     const handleHamburgerClick = () => {
-        
+        setNavBarOpen(!navBarOpen);
+    }
+
+    const showNavBar = () => {
+        if (navBarOpen) {
+            return (<NavBar handleSectionClick={handleSectionClick} activeSection={activeSection}/>)
+        }
     }
 
   return (
     <div id='main-content-container-mobile'>
+        {showNavBar()}
         <motion.div id='mobile-navbar-hamburger-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }} onClick={handleHamburgerClick}>
             <div id='mobile-navbar-hamburger' className='icon'></div>
         </motion.div>

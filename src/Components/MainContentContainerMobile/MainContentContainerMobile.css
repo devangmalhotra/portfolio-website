@@ -1,25 +1,39 @@
 #main-content-container-mobile {
     position: relative;
     z-index: 999;
-    padding: 20px;
 }
 
 #mobile-pages-container {
     display: grid;
     gap: 1rem;
-    margin: 20px 0;
+    padding: 20px;
 }
 
 #main-content-container-mobile h2 {
     font-size: larger;
 }
 
+#main-content-container-mobile .carousel-icon {
+    height: 25px;
+    width: 25px;
+}
+
 #main-content-container-mobile h5, #main-content-container-mobile button {
-    font-size: small;
+    font-size: 12px;
+}
+
+#main-content-container-mobile #location-icon {
+    height: 25px;
+    width: 25px;
+}
+
+#main-content-container-mobile #github-icon,  #main-content-container-mobile #linkedin-icon{
+    height: 40px;
+    width: 40px;
 }
 
 #main-content-container-mobile h4 {
-    font-size: medium;
+    font-size: 12px;
 }
 
 #main-content-container-mobile #tech-stack-card-container, #main-content-container-mobile #tech-stack-card-content {
@@ -87,4 +101,14 @@
     border-color: white;
     background-color: var(--navigator-hover-card-background);
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+#main-content-container-mobile #navbar-card-container {
+    position: absolute;
+    height: 100%;
+    z-index: 9999;
+}
+
+#main-content-container-mobile .navbar {
+    align-items: flex-start;
 }
