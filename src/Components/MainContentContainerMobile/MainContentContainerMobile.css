@@ -2,6 +2,9 @@
     position: relative;
     z-index: 999;
     padding: 20px;
+    overflow: scroll;
+    display: grid;
+    gap: 1rem;
 }
 
 #main-content-container-mobile h2 {
@@ -17,5 +20,30 @@
 }
 
 #main-content-container-mobile .logos {
-    width: auto;
+    width: 200px;
+}
+
+#main-content-container-mobile #hello-card-container {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#main-content-container-mobile #location-card-container {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#main-content-container-mobile #tech-stack-card-container {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#main-content-container-mobile #github-card-container {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#main-content-container-mobile #linkedin-card-container {
+    grid-column: 1;
+    grid-row: 5;
 }
