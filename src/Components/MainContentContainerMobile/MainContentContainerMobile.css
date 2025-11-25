@@ -2,7 +2,6 @@
     position: relative;
     z-index: 999;
     padding: 20px;
-    overflow: scroll;
 }
 
 #mobile-pages-container {
@@ -58,11 +57,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 #mobile-navbar-hamburger {
     mask-image: url('../../assets/icons8-hamburger-menu-100.png');
     height: 60%;
     width: 60%;
-    background-color: white;
+    background-color: var(--text-main);
+}
+
+#mobile-navbar-hamburger-container:hover {
+    cursor: pointer;
+    border-color: white;
+    background-color: var(--navigator-hover-card-background);
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }

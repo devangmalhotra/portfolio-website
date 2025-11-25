@@ -9,7 +9,12 @@
   height: 100vh;
   width: 100vw;
   position: relative;
-  overflow: scroll;
+  overflow: hidden;
+}
+
+#mobile-view {
+    overflow: scroll;
+    height: 100%;
 }
 
 .logo {
