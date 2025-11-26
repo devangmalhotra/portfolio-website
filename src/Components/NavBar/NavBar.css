@@ -3,6 +3,7 @@
     grid-column: 2;
     grid-row: 1 / 4;
     align-self: stretch;
+    position: relative;
 }
 
 .navbar {
@@ -106,5 +107,25 @@
 #contact-icon {
     mask-image: url('../../assets/NavBarIcons/icons8-contact-50.png');
     -webkit-mask-image: url('../../assets/NavBarIcons/icons8-contact-50.png');
+}
+
+.navbar-close-icon {
+    mask-image: url('../../assets/NavBarIcons/icons8-close-100.png');
+    -webkit-mask-image: url('../../assets/NavBarIcons/icons8-close-100.png');
+    height: 40px;
+    width: 40px;
+}
+
+#navbar-close-container {
+    position: absolute;
+    top: 0;
+    margin: 20px;
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+#navbar-close-container:hover {
+    cursor: pointer;
+    opacity: 60%;
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
