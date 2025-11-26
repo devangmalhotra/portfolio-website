@@ -58,7 +58,7 @@ function MainContentContainerMobile() {
 
     const showNavBar = () => {
         if (navBarOpen) {
-            return (<NavBar handleSectionClick={handleSectionClick} activeSection={activeSection}/>)
+            return (<NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true}/>)
         }
     }
 
