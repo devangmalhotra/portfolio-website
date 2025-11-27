@@ -112,3 +112,12 @@
 #main-content-container-mobile .navbar {
     align-items: flex-start;
 }
+
+#screen-block {
+    width: 100vw;
+    background-color: var(--navigator-hover-card-background);
+    opacity: 50%;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+}
