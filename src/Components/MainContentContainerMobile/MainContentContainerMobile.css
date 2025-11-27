@@ -104,8 +104,8 @@
 }
 
 #main-content-container-mobile #navbar-card-container {
-    position: absolute;
-    height: 100%;
+    position: fixed;
+    height: 100vh;
     z-index: 9999;
 }
 
