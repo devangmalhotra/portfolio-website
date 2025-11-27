@@ -117,16 +117,3 @@
     width: 40px;
 }
 
-#navbar-close-container {
-    position: absolute;
-    top: 0;
-    margin: 20px;
-    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-}
-
-#navbar-close-container:hover {
-    cursor: pointer;
-    opacity: 60%;
-    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-}
-
