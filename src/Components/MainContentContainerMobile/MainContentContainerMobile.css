@@ -1,6 +1,7 @@
 #main-content-container-mobile {
     position: relative;
     z-index: 999;
+    padding: 1px;
 }
 
 #mobile-pages-container {
@@ -87,6 +88,7 @@
     justify-content: center;
     align-items: center;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    margin: 20px;
 }
 
 #mobile-navbar-hamburger {

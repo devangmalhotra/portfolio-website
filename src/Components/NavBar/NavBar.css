@@ -4,6 +4,7 @@
     grid-row: 1 / 4;
     align-self: stretch;
     position: relative;
+    box-sizing: border-box;
 }
 
 .navbar {

@@ -58,7 +58,7 @@ function MainContentContainerMobile() {
 
     const showNavBar = () => {
         if (navBarOpen) {
-            return (<div id='mobile-navbar-container'><div id='screen-block'></div><NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true} handleHamburgerClick={handleHamburgerClick}/></div>)
+            return (<div id='mobile-navbar-container'><motion.div id='screen-block' onClick={handleHamburgerClick} initial={{ scale: 0 }} animate={{ scale: 4 }} whileInView={{ opacity: 0.75 }}></motion.div><NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true} handleHamburgerClick={handleHamburgerClick}/></div>)
         }
     }
 
