@@ -21,7 +21,7 @@ function ExperienceCard(props) {
                 <div className='experience-description-role-notes'>
                     <ul>
                         {props.notes.map((item, index) => {
-                            return(<li><p>{item}</p></li>)
+                            return(<li key={index}><p>{item}</p></li>)
                         })}
                     </ul>
                 </div>
