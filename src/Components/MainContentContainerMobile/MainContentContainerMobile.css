@@ -109,6 +109,7 @@
     position: fixed;
     height: 100vh;
     z-index: 9999;
+    border: none;
 }
 
 #main-content-container-mobile .navbar {
@@ -117,8 +118,7 @@
 
 #screen-block {
     width: 100vw;
-    background-color: var(--navigator-hover-card-background);
-    opacity: 50%;
+    background-color: rgb(27, 27, 43);
     height: 100vh;
     position: fixed;
     z-index: 9999;
