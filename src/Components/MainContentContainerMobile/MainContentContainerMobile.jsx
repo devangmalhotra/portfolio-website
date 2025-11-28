@@ -11,7 +11,7 @@ import ProjectsMain from '../Projects/ProjectsMain/ProjectsMain'
 import EmailCard from '../Contact/EmailCard/EmailCard'
 import PhoneCard from '../Contact/PhoneCard/PhoneCard'
 import DiscordCard from '../Contact/DiscordCard/DiscordCard'
-import { motion } from 'motion/react'
+import { AnimatePresence, motion } from 'motion/react'
 import { useState } from 'react'
 
 function MainContentContainerMobile() {
@@ -57,15 +57,19 @@ function MainContentContainerMobile() {
     }
 
     const showNavBar = () => {
-        if (navBarOpen) {
-            return (<div id='mobile-navbar-container'><motion.div id='screen-block' onClick={handleHamburgerClick} initial={{ scale: 0 }} animate={{ scale: 4 }} whileInView={{ opacity: 0.75 }}></motion.div><NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true} handleHamburgerClick={handleHamburgerClick}/></div>)
-        }
+
     }
 
   return (
     <div id='main-content-container-mobile'>
-        {showNavBar()}
-        <motion.div id='mobile-navbar-hamburger-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }} onClick={handleHamburgerClick}>
+        <div id='mobile-navbar-container'>
+            <AnimatePresence>
+                
+                { navBarOpen ? <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true} handleHamburgerClick={handleHamburgerClick}/> : null}
+            </AnimatePresence>
+            
+        </div>
+        <motion.div id='mobile-navbar-hamburger-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }} onClick={handleHamburgerClick} key={'hamburger'}>
             <div id='mobile-navbar-hamburger' className='icon'></div>
         </motion.div>
         <div id='mobile-pages-container'>
