@@ -145,3 +145,35 @@
     grid-template-columns: 1fr;
 }
 
+#main-content-container-mobile .projects-img-info-container {
+    flex-direction: column;
+}
+
+#main-content-container-mobile .projects-img-info-container p{
+    font-size: 15px;
+}
+
+#main-content-container-mobile .projects-img-info-container .project-external-link-demo-icon, .project-external-link-github-icon {
+    height: 15px;
+    width: 15px;
+}
+
+#main-content-container-mobile .project-img-container {
+    height: 200px;
+    width: 200px;
+}
+
+#main-content-container-mobile .project-img-container img {
+    height: 300px;
+}
+
+#main-content-container-mobile #project-navigator-container {
+    height: 75px;
+}
+
+#main-content-container-mobile #project-navigator-backward-pic,  #main-content-container-mobile #project-navigator-forward-pic {
+    height: 50px;
+    width: 50px;
+}
+
+
