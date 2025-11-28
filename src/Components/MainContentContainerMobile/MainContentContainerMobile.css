@@ -123,3 +123,25 @@
     position: fixed;
     z-index: 9999;
 }
+
+#main-content-container-mobile .experience-card-content {
+    padding: 20px 30px;
+}
+
+#main-content-container-mobile .experience-card-content h2 {
+    font-size: 15px;
+}
+
+#main-content-container-mobile .experience-card-content h4 {
+    font-size: 12px;
+    height: 20px;
+}
+
+#main-content-container-mobile .experience-card-content p {
+    font-size: 10px;
+}
+
+#main-content-container-mobile #experience-cards-container {
+    grid-template-columns: 1fr;
+}
+
