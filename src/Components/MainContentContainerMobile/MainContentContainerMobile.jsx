@@ -64,7 +64,7 @@ function MainContentContainerMobile() {
     <div id='main-content-container-mobile'>
         <div id='mobile-navbar-container'>
             <AnimatePresence>
-                
+                { navBarOpen ? (<motion.div id='screen-block' onClick={handleHamburgerClick} initial={{ scale: 0 }} animate={{ scale: 4 }} whileInView={{ opacity: 0.75 }} exit={{ opacity: 0 }} key={'screen-block'}></motion.div>) : null }
                 { navBarOpen ? <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true} handleHamburgerClick={handleHamburgerClick}/> : null}
             </AnimatePresence>
             
