@@ -56,10 +56,6 @@ function MainContentContainerMobile() {
         setNavBarOpen(!navBarOpen);
     }
 
-    const showNavBar = () => {
-
-    }
-
   return (
     <div id='main-content-container-mobile'>
         <div id='mobile-navbar-container'>
