@@ -175,5 +175,12 @@
     height: 50px;
     width: 50px;
 }
+#main-content-container-mobile .project-info-container {
+    width: auto;
+}
+
+#main-content-container-mobile .project-card-content h2 {
+    font-size: 30px;
+}
 
 
