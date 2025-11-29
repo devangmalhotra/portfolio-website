@@ -7,6 +7,7 @@
 
 .external-link:hover {
     cursor: pointer;
+    
 }
 
 .external-link:hover .icon {
@@ -15,9 +16,8 @@
 }
 
 .external-link:hover .external-link-icon-container {
-    opacity: 100%;
+    background-color: var(--text-main);
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-    filter: invert(100%);
 }
 
 #github-card-container {
@@ -28,9 +28,13 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px;
-    opacity: 0;
+    margin: 10px;
+    background-color: var(--card-background);
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    mask-image: url('../../../assets/icons8-external-link-128.png');
+    height: 20px;
+    width: 20px;
+    
 }
 
 .external-link-icon-container img {
@@ -41,4 +45,13 @@
     mask-image: url('../../../assets/icons8-github-64.png');
     -webkit-mask-image: url('../../../assets/icons8-github-64.png');
 }
+
+@supports (hanging-punctuation: first) {
+  /* CSS rules specific to Safari 16+ */
+  .external-link:hover {
+        background-color: var(--accent);
+    
+    }
+}
+
 
