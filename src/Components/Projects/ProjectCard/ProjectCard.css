@@ -47,16 +47,19 @@
 }
 
 .stack-badges {
-    margin: 5px 0 20px 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .stack-badge:first-child {
-    margin: 0 5px 0 0;
+    margin: 0 0 0 0;
 }
 
 .stack-badge {
     display: inline-block;
-    margin: 0 5px;
+    margin: 0;
     font-weight: bold;
     background-color: var(--background-main);
     padding: 5px;
@@ -67,6 +70,9 @@
 
 .project-external-links-container {
     margin: 5px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .project-external-link {
@@ -77,14 +83,14 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin: 0 5px;
+    margin: 0;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     border: solid 1px;
     border-color: var(--accent);
 }
 
 .project-external-link:first-child {
-    margin: 0 5px 0 0;
+    margin: 0 
 }
 
 .project-external-link:hover {
