@@ -28,8 +28,8 @@ function TechStackLibCarousel() {
         <div className='logos-slide-reverse lib-slide'>
             {renderLogos()}
             {renderLogos()}
-        </div>
-        <div className='logos-slide-reverse lib-slide'>
+            {renderLogos()}
+            {renderLogos()}
             {renderLogos()}
             {renderLogos()}
         </div>
