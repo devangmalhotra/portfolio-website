@@ -26,11 +26,19 @@ function TechStackCarousel() {
         <div className='logos-slide languages-slide'>
             {renderLogos()}
             {renderLogos()}
+            {renderLogos()}
         </div>
         <div className='logos-slide languages-slide'>
             {renderLogos()}
             {renderLogos()}
+            {renderLogos()}
         </div>
+        <div className='logos-slide languages-slide'>
+            {renderLogos()}
+            {renderLogos()}
+            {renderLogos()}
+        </div> 
+        
         
     </div>
   )

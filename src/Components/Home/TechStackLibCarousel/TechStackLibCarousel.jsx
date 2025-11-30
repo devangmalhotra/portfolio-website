@@ -33,6 +33,7 @@ function TechStackLibCarousel() {
             {renderLogos()}
             {renderLogos()}
         </div>
+        
     </div>
   )
 }

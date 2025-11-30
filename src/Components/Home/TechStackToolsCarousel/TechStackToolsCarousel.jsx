@@ -24,12 +24,15 @@ function TechStackToolsCarousel() {
         <div className='logos-slide tools-slide'>
             {renderLogos()}
             {renderLogos()}
+            {renderLogos()}
         </div>
         <div className='logos-slide tools-slide'>
             {renderLogos()}
             {renderLogos()}
+            {renderLogos()}
         </div>
         <div className='logos-slide tools-slide'>
+            {renderLogos()}
             {renderLogos()}
             {renderLogos()}
         </div>

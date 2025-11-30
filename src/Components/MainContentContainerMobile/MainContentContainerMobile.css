@@ -182,4 +182,9 @@
     font-size: 30px;
 }
 
+#main-content-container-mobile .project-info-container {
+    justify-content: flex-start;
+}
+
+
 

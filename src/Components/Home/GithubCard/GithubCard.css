@@ -16,7 +16,6 @@
 }
 
 .external-link:hover .external-link-icon-container {
-    background-color: var(--text-main);
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 

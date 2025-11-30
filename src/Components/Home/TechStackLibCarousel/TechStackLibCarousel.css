@@ -38,13 +38,24 @@
     -webkit-mask-image: url('../../../assets/TechStackIcons/output-onlinepngtools.png');
 }
 
-.lib-slide {
+.logos-slide-reverse {
     display: inline-block;
-    animation: 40s slide infinite linear reverse;
     padding: 0;
     margin: 0;
 }
 
+.lib-slide {
+    animation: 25s slide-reverse infinite linear;
+}
+
 .logos:hover .logos-slide-reverse {
     animation-play-state: paused;
+}
+
+@keyframes slide-reverse {
+    from {
+        transform: translateX(-100%);
+    } to {
+        transform: translatex(0);
+    }
 }
