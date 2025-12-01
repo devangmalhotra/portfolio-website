@@ -51,8 +51,7 @@
 }
 .experience-current-badge h4 {
     background-color: var(--accent);
-    height: 30px;
-    padding: 0 5px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;

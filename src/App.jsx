@@ -27,7 +27,7 @@ function App() {
 
     return(() => {
       query.removeEventListener("change", handleQuery);
-    }); // putting in function rather than useeffect lets the listener run first
+    }); // putting in function rather than useeffect lets the listener run first (return statement is the cleanup function)
   }, [])
 
   return (
