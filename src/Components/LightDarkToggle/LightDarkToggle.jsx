@@ -15,6 +15,7 @@ function LightDarkToggle(props) {
             root.style.setProperty('--accent', '#aaa1ff');
             root.style.setProperty('--hover', '#7667ff44');
             root.style.setProperty('--navigator-hover-card-background', '#7667ff44');
+            root.style.setProperty('--navbar-screen-block', 'rgb(27, 27, 43)');
         } else if (props.mode === "Light") {
             root.style.setProperty('--background-main', 'linear-gradient(135deg, #A4C8FF, #F5D3A3');
             root.style.setProperty('--grid-square-border', '#dce0ebff');
@@ -25,6 +26,7 @@ function LightDarkToggle(props) {
             root.style.setProperty('--accent', '#6A4CFF');
             root.style.setProperty('--hover', '#c0dbfbff');
             root.style.setProperty('--navigator-hover-card-background', '#99aaf4ff');
+            root.style.setProperty('--navbar-screen-block', '#ab9bfaff');
 
         }
     }, [props.mode])

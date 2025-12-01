@@ -118,7 +118,7 @@
 
 #screen-block {
     width: 100vw;
-    background-color: rgb(27, 27, 43);
+    background-color: var(--navbar-screen-block);
     height: 100vh;
     position: fixed;
     z-index: 9999;

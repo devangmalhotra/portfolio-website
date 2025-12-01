@@ -8,6 +8,7 @@
   --accent: #aaa1ff;
   --hover: #7667ff44;
   --navigator-hover-card-background: #363658;
+  --navbar-screen-block: rgb(27, 27, 43);
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,13 +67,14 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    --background-main: linear-gradient(135deg, #A4C8FF, #F5D3A3);
+    --grid-square-border: #dce0ebff;
+    --card-background: #F1F4FB;
+    --card-border: #D1D6E2;
+    --text-main: #2F2F2F;
+    --subtext: #585858;
+    --accent: #6A4CFF;
+    --hover: #c0dbfbff;
+    --navigator-hover-card-background: #99aaf4ff;
   }
 }

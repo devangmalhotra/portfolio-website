@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -12,6 +13,14 @@ function App() {
   const handleLightDarkClick = () => {
         mode == "Dark" ? setMode("Light") : setMode("Dark");
   }
+
+  useEffect(() => {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+      setMode("Light");
+    } else {
+      setMode("Dark")
+    }
+  }, [])
 
   return (
     <div id='main'>

@@ -60,7 +60,7 @@ function MainContentContainerMobile(props) {
     <div id='main-content-container-mobile'>
         <div id='mobile-navbar-container'>
             <AnimatePresence>
-                { navBarOpen ? (<motion.div id='screen-block' onClick={handleHamburgerClick} initial={{ scale: 1, opacity: 0 }} transition={{ duration: 0.3 }} animate={{ scale: 1, opacity: 0.9 }} exit={{ opacity: 0 }} key={'screen-block'}></motion.div>) : null }
+                { navBarOpen ? (<motion.div id='screen-block' onClick={handleHamburgerClick} initial={{ scale: 1, opacity: 0, backgroundColor: "var(--navbar-screen-block)" }} transition={{ duration: 0.3 }} animate={{ scale: 1, opacity: 0.9 }} exit={{ opacity: 0 }} key={'screen-block'}></motion.div>) : null }
                 { navBarOpen ? <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true} handleHamburgerClick={handleHamburgerClick} mode={props.mode} handleLightDarkClick={props.handleLightDarkClick}/> : null}
             </AnimatePresence>
             
