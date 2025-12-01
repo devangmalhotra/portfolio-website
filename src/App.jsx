@@ -11,15 +11,23 @@ function App() {
   const [mode, setMode] = useState("Dark");
 
   const handleLightDarkClick = () => {
-        mode == "Dark" ? setMode("Light") : setMode("Dark");
+    mode == "Dark" ? setMode("Light") : setMode("Dark");
   }
 
   useEffect(() => {
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-      setMode("Light");
-    } else {
-      setMode("Dark")
+    const query = window.matchMedia('(prefers-color-scheme: light)');
+    query.matches ? setMode("Light") : setMode("Dark");
+
+    const handleQuery = (e) => {
+      e.matches ? setMode("Light") : setMode("Dark");
     }
+
+    query.addEventListener("change", handleQuery);
+    
+
+    return(() => {
+      query.removeEventListener("change", handleQuery);
+    }); // putting in function rather than useeffect lets the listener run first
   }, [])
 
   return (
