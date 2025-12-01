@@ -13,7 +13,7 @@ function NavBar(props) {
             {props.mobileNavBar ? (<li onClick={() => {props.handleSectionClick('experience'); props.handleHamburgerClick()}}className={props.activeSection == 'experience' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='experience-icon'></div>Experience</li>) : (<li onClick={() => {props.handleSectionClick('experience'); }}className={props.activeSection == 'experience' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='experience-icon'></div>Experience</li>)}
             {props.mobileNavBar ? (<li onClick={() => {props.handleSectionClick('projects'); props.handleHamburgerClick()}}className={props.activeSection == 'projects' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='projects-icon'></div>Projects</li>) : (<li onClick={() => {props.handleSectionClick('projects'); }}className={props.activeSection == 'projects' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='projects-icon'></div>Projects</li>)}
             {props.mobileNavBar ? (<li onClick={() => {props.handleSectionClick('contact'); props.handleHamburgerClick()}}className={props.activeSection == 'contact' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='contact-icon'></div>Contact</li>) : (<li onClick={() => {props.handleSectionClick('contact'); }}className={props.activeSection == 'contact' ? 'navbar-active' : ''}><div className='navbar-icon icon' id='contact-icon'></div>Contact</li>)}
-            <LightDarkToggle />
+            <LightDarkToggle mode={props.mode} handleLightDarkClick={props.handleLightDarkClick}/>
           </ul>
         </nav>
     </motion.div>

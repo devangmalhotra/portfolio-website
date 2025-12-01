@@ -14,7 +14,7 @@ import ExperiencesMain from '../Experience/ExperiencesMain/ExperiencesMain'
 import { motion } from "motion/react"
 import { useState } from 'react'
 
-function MainContentContainer() {
+function MainContentContainer(props) {
     const [activeSection, setActiveSection] = useState('home');
 
     const handleSectionClick = (section) => {
@@ -53,7 +53,7 @@ function MainContentContainer() {
 
   return (
     <motion.div id='main-content-container' >
-        <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection}/>
+        <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mode={props.mode} handleLightDarkClick={props.handleLightDarkClick}/>
         <div id='pages-container'>
             {renderActiveSection()}
         </div>

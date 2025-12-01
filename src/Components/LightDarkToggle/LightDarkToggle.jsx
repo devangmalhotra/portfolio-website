@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './LightDarkToggle.css'
 
-function LightDarkToggle() {
-    const [mode, setMode] = useState("Dark");
+function LightDarkToggle(props) {
     let root = document.documentElement;
 
-    const handleLightDarkClick = () => {
-        mode == "Dark" ? setMode("Light") : setMode("Dark");
-    }
-
     useEffect(() => {
-        if (mode === "Dark") {
+        if (props.mode === "Dark") {
             root.style.setProperty('--background-main', '#0A0A12');
             root.style.setProperty('--grid-square-border', '#1A1A27');
             root.style.setProperty('--card-background', '#151522');
@@ -18,7 +13,7 @@ function LightDarkToggle() {
             root.style.setProperty('--text-main', '#E4E6F0');
             root.style.setProperty('--subtext', '#979BB2');
             root.style.setProperty('--accent', '#aaa1ff');
-        } else if (mode === "Light") {
+        } else if (props.mode === "Light") {
             root.style.setProperty('--background-main', 'linear-gradient(135deg, #A4C8FF, #F5D3A3');
             root.style.setProperty('--grid-square-border', '#dce0ebff');
             root.style.setProperty('--card-background', '#F1F4FB');
@@ -28,11 +23,11 @@ function LightDarkToggle() {
             root.style.setProperty('--accent', '#6A4CFF');
 
         }
-    }, [mode])
+    }, [props.mode])
 
   return (
     <div id='light-dark-toggle-container'>
-        <button id='light-dark-button' onClick={handleLightDarkClick}><div id='mode-icon' className={`${mode.toLowerCase()}-mode icon`}></div><h5>{`${mode} Mode`}</h5></button>
+        <button id='light-dark-button' onClick={props.handleLightDarkClick}><div id='mode-icon' className={`${props.mode.toLowerCase()}-mode icon`}></div><h5>{`${props.mode} Mode`}</h5></button>
     </div>
   )
 }

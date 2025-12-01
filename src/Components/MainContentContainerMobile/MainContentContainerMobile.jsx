@@ -14,7 +14,7 @@ import DiscordCard from '../Contact/DiscordCard/DiscordCard'
 import { AnimatePresence, motion } from 'motion/react'
 import { useState } from 'react'
 
-function MainContentContainerMobile() {
+function MainContentContainerMobile(props) {
     const [activeSection, setActiveSection] = useState('home');
     const [navBarOpen, setNavBarOpen] = useState(false);
 
@@ -61,7 +61,7 @@ function MainContentContainerMobile() {
         <div id='mobile-navbar-container'>
             <AnimatePresence>
                 { navBarOpen ? (<motion.div id='screen-block' onClick={handleHamburgerClick} initial={{ scale: 1, opacity: 0 }} transition={{ duration: 0.3 }} animate={{ scale: 1, opacity: 0.9 }} exit={{ opacity: 0 }} key={'screen-block'}></motion.div>) : null }
-                { navBarOpen ? <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true} handleHamburgerClick={handleHamburgerClick}/> : null}
+                { navBarOpen ? <NavBar handleSectionClick={handleSectionClick} activeSection={activeSection} mobileNavBar={true} handleHamburgerClick={handleHamburgerClick} mode={props.mode} handleLightDarkClick={props.handleLightDarkClick}/> : null}
             </AnimatePresence>
             
         </div>

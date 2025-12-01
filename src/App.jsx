@@ -7,15 +7,20 @@ import MainContentContainer from './Components/MainContentContainer/MainContentC
 import MainContentContainerMobile from './Components/MainContentContainerMobile/MainContentContainerMobile'
 
 function App() {
+  const [mode, setMode] = useState("Dark");
+
+  const handleLightDarkClick = () => {
+        mode == "Dark" ? setMode("Light") : setMode("Dark");
+  }
 
   return (
     <div id='main'>
       <BackgroundSquares />
       <div id='desktop-view'>
-        <MainContentContainer />
+        <MainContentContainer mode={mode} handleLightDarkClick={handleLightDarkClick} />
       </div>
       <div id='mobile-view'>
-        <MainContentContainerMobile />
+        <MainContentContainerMobile mode={mode} handleLightDarkClick={handleLightDarkClick} />
       </div>
     </div>
   )
