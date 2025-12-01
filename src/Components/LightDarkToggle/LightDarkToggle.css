@@ -8,3 +8,22 @@
     border-color: white;
     background-color: var(--navigator-hover-card-background);
 }
+
+#light-dark-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.dark-mode {
+    mask-image: url('../../assets/NavBarIcons/icons8-moon-90.png');
+    height: 15px;
+    width: 15px;
+}
+
+.light-mode {
+    mask-image: url('../../assets/NavBarIcons/icons8-sun-96.png');
+    height: 15px;
+    width: 15px;
+}
