@@ -1,7 +1,7 @@
 #contact-me-btn {
     padding: 0;
     font-size: small;
-    color: #979BB2;
+    color: var(--subtext);
     background-color: transparent;
 }
 

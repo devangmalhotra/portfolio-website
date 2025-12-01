@@ -2,11 +2,18 @@
     width: 100%;
     background-color: var(--card-background);
     border: solid 2px var(--card-border);
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+#light-dark-button h5 {
+    margin: 0;
+    color: var(--text-main);
 }
 
 #light-dark-button:hover {
     border-color: white;
     background-color: var(--navigator-hover-card-background);
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 #light-dark-button {

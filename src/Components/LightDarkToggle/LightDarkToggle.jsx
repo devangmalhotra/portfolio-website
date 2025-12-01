@@ -16,19 +16,23 @@ function LightDarkToggle() {
             root.style.setProperty('--card-background', '#151522');
             root.style.setProperty('--card-border', '#2A2A40');
             root.style.setProperty('--text-main', '#E4E6F0');
+            root.style.setProperty('--subtext', '#979BB2');
+            root.style.setProperty('--accent', '#aaa1ff');
         } else if (mode === "Light") {
             root.style.setProperty('--background-main', 'linear-gradient(135deg, #A4C8FF, #F5D3A3');
             root.style.setProperty('--grid-square-border', '#dce0ebff');
             root.style.setProperty('--card-background', '#F1F4FB');
             root.style.setProperty('--card-border', '#D1D6E2');
             root.style.setProperty('--text-main', '#2F2F2F');
+            root.style.setProperty('--subtext', '#585858');
+            root.style.setProperty('--accent', '#6A4CFF');
 
         }
     }, [mode])
 
   return (
     <div id='light-dark-toggle-container'>
-        <button id='light-dark-button' onClick={handleLightDarkClick}><div id='mode-icon' className={`${mode.toLowerCase()}-mode icon`}></div>{`${mode} Mode`}</button>
+        <button id='light-dark-button' onClick={handleLightDarkClick}><div id='mode-icon' className={`${mode.toLowerCase()}-mode icon`}></div><h5>{`${mode} Mode`}</h5></button>
     </div>
   )
 }
