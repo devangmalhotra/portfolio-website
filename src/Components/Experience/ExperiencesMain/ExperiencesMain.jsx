@@ -8,7 +8,7 @@ function ExperiencesMain() {
       title: 'Yamaha Motor Canada',
       dateRange: 'Sept 2025 — Dec 2025',
       location: 'Toronto, ON',
-      notes: ['• Test', '• Test', '• Test'],
+      notes: ['• Parsed 800+ PDF pages with Tabula-Py and Pandas to extract OM and WV MSRP information for 200+ competitor products', '• Test', '• Test'],
       position: 'Data Analyst',
       current: 'current'
     },
