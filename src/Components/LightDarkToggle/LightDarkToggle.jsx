@@ -14,7 +14,7 @@ function LightDarkToggle(props) {
             root.style.setProperty('--subtext', '#979BB2');
             root.style.setProperty('--accent', '#aaa1ff');
             root.style.setProperty('--hover', '#7667ff44');
-            root.style.setProperty('--navigator-hover-card-background', '#7667ff44');
+            root.style.setProperty('--navigator-hover-card-background', '#363658');
             root.style.setProperty('--navbar-screen-block', 'rgb(27, 27, 43)');
         } else if (props.mode === "Light") {
             root.style.setProperty('--background-main', 'linear-gradient(135deg, #95c0ffff, #ecf196ff');
