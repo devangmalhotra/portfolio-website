@@ -8,7 +8,7 @@ function ExperiencesMain() {
       title: 'Yamaha Motor Canada',
       dateRange: 'Sept 2025 — Dec 2025',
       location: 'Toronto, ON',
-      notes: ['• Parsed 800+ PDF pages with Tabula-Py and Pandas to extract OM and WV MSRP information for 200+ competitor products', '• Tracked year-over-year sales increases after each Yamaha Appreciation Day from 2019-2023 for 200+ Canadian cities by leveraging GeoPy coordinates for radius mapping in Power BI, leading to a 15% average increase in MC sales post-event', '• Area charts....'],
+      notes: ['• Parsed 800+ PDF pages with Tabula-Py and Pandas to extract Marine MSRP data, reducing manual data entry time by 40%', '• TTracked year-over-year sales increases after each Yamaha Appreciation Day from 2024-2025 for 200+ Canadian cities by leveraging GeoPy coordinates for radius mapping in Power BI, leading to a 15% average increase in MC sales post-event', '• Enhanced the ATV, MC, and ROV Power BI dashboards by adding an interactive area chart to visualize unit-sales trends across OEMs and product categories, improving data clarity for the BLU CRU team and supporting a 10% increase in accuracy'],
       position: 'Data Analyst',
       current: 'current'
     },
