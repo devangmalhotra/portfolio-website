@@ -33,6 +33,7 @@
     font-weight: 600;
     border-radius: 50px;
     position: relative;
+    align-items: center;
 }
 
 .navbar-links li::before,
@@ -84,35 +85,24 @@
 }
 
 .navbar-icon {
-    height: 30px !important;
-    width: 30px !important;
-    margin: 0 5px;
+    height: 25px !important;
+    width: 25px !important;
+    margin: 0 15px;
 }
 
 #home-icon {
-    mask-image: url('../../assets/NavBarIcons/icons8-home-50.png');
-    -webkit-mask-image: url('../../assets/NavBarIcons/icons8-home-50.png');
+    mask-image: url('../../assets/NavBarIcons/home.svg');
 }
 
 #experience-icon {
-    mask-image: url('../../assets/NavBarIcons/icons8-briefcase-64.png');
-    -webkit-mask-image: url('../../assets/NavBarIcons/icons8-briefcase-64.png');
+    mask-image: url('../../assets/NavBarIcons/briefcase.svg');
 }
 
 #projects-icon {
-    mask-image: url('../../assets/NavBarIcons/icons8-projects-50.png');
-    -webkit-mask-image: url('../../assets/NavBarIcons/icons8-projects-50.png');
+    mask-image: url('../../assets/NavBarIcons/projects.svg');
 }
 
 #contact-icon {
-    mask-image: url('../../assets/NavBarIcons/icons8-contact-50.png');
-    -webkit-mask-image: url('../../assets/NavBarIcons/icons8-contact-50.png');
-}
-
-.navbar-close-icon {
-    mask-image: url('../../assets/NavBarIcons/icons8-close-100.png');
-    -webkit-mask-image: url('../../assets/NavBarIcons/icons8-close-100.png');
-    height: 40px;
-    width: 40px;
+    mask-image: url('../../assets/NavBarIcons/contact.svg');
 }
 
