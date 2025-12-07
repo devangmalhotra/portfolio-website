@@ -5,6 +5,5 @@
 }
 
 #phone-icon {
-    mask-image: url('../../../assets/ContactIcons/icons8-phone-30.png');
-    -webkit-mask-image: url('../../../assets/ContactIcons/icons8-phone-30.png');
+    mask-image: url('../../../assets/ContactIcons/phone-call.svg');
 }

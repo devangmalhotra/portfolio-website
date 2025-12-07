@@ -1,6 +1,5 @@
 import React from 'react'
 import './EmailCard.css'
-import emailIcon from '../../../assets/ContactIcons/icons8-email-48.png'
 import CopyClipboardBtn from '../../CopyClipboardBtn/CopyClipboardBtn'
 import { motion } from 'motion/react'
 

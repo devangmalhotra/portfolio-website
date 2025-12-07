@@ -41,8 +41,7 @@
 }
 
 #github-icon {
-    mask-image: url('../../../assets/icons8-github-64.png');
-    -webkit-mask-image: url('../../../assets/icons8-github-64.png');
+    mask-image: url('../../../assets/github-142-svgrepo-com.svg');
 }
 
 @supports (hanging-punctuation: first) {

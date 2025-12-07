@@ -7,11 +7,6 @@
     margin: 0;
 }
 
-#location-card-content img {
-    height: 30px;
-    margin: 0 5px;
-}
-
 #location-card-content {
     display: flex;
     justify-content: center;
@@ -19,9 +14,8 @@
 }
 
 #location-icon {
-    margin: 0 5px;
-    height: 30px;
-    width: 30px;
-    mask-image: url('../../../assets/icons8-location-pin-50.png');
-    -webkit-mask-image: url('../../../assets/icons8-location-pin-50.png');
+    margin: 0 10px;
+    height: 25px;
+    width: 25px;
+    mask-image: url('../../../assets/marker.svg');
 }

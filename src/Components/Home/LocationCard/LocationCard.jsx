@@ -1,6 +1,5 @@
 import React from 'react'
 import './LocationCard.css'
-import locationPinIcon from '../../../assets/icons8-location-pin-50.png'
 import { motion } from 'motion/react'
 
 function LocationCard() {

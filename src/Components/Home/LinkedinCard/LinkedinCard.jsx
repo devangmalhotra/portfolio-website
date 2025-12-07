@@ -1,6 +1,5 @@
 import React from 'react'
 import './LinkedinCard.css'
-import externalLinkIcon from '../../../assets/icons8-external-link-128.png'
 import { motion } from 'motion/react';
 
 function LinkedinCard() {

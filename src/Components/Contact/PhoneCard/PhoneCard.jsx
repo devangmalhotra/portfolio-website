@@ -1,6 +1,5 @@
 import React from 'react'
 import './PhoneCard.css'
-import phoneIcon from '../../../assets/ContactIcons/icons8-phone-30.png'
 import CopyClipboardBtn from '../../CopyClipboardBtn/CopyClipboardBtn'
 import { motion } from 'motion/react'
 

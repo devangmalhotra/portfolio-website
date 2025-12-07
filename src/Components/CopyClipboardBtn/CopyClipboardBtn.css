@@ -10,33 +10,12 @@
 }
 
 #clipboard-icon {
-    mask-image: url('../../assets/icons8-copy-16.png');
-    width: 25px;
-    height: 25px;
+    mask-image: url('../../assets/copy-alt.svg');
+    width: 20px;
+    height: 20px;
 }
 
 #clipboard-btn:hover {
     opacity: 60%;
     transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-}
-
-#clipboard-btn-container h4 {
-    position: absolute;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #00FFFF;
-    background-color: #009e9e;
-    padding: 5px;
-    border-radius: 10px;
-    
-    border: 1px solid #00FFFF;
-    box-shadow: 0 0 10px #00FFFF;
-    opacity: 0;
-}
-
-.copied-animating {
-    opacity: 1 !important;
-    transform: translate(-50%, -50%) scale(1.05) !important;
 }
