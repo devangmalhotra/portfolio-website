@@ -188,6 +188,10 @@
     justify-content: flex-start;
 }
 
+#main-content-container-mobile .logos:hover .logos-slide, #main-content-container-mobile .logos:hover .logos-slide-reverse {
+    animation-play-state: running;
+}
+
 @media screen and (max-width: 1200px) {
     #main-content-container-mobile .experience-card-content h2 {
         font-size: 25px;
