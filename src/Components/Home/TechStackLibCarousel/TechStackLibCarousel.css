@@ -45,7 +45,7 @@
 }
 
 .lib-slide {
-    animation: 35s slide-reverse infinite linear;
+    animation: 95s slide-reverse infinite linear;
 }
 
 .logos:hover .logos-slide-reverse {
