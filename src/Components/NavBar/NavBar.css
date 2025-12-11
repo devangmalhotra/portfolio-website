@@ -63,11 +63,17 @@
 
 .navbar-links li:hover::after {
   width: 100%;
-  transition: width 0.25s ease-in-out 0.25s;
+  transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .navbar-links li:hover {
     cursor: pointer;
+}
+
+.navbar-links li h4 {
+    margin: 0;
+    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    font-size: 22px !important;
 }
 
 .navbar-links li img {

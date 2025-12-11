@@ -13,11 +13,9 @@
   line-height: 1.5;
   font-weight: 400;
   transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-
   color-scheme: light dark;
   color: var(--text-main);
   background: var(--background-main);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
