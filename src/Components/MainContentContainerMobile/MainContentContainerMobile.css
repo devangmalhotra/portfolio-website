@@ -2,6 +2,7 @@
     position: relative;
     z-index: 999;
     padding: 1px;
+    overflow: hidden;
 }
 
 #mobile-pages-container {

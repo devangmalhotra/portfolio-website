@@ -32,11 +32,12 @@ function App() {
 
   return (
     <div id='main'>
-      <BackgroundSquares />
       <div id='desktop-view'>
+        <BackgroundSquares />
         <MainContentContainer mode={mode} handleLightDarkClick={handleLightDarkClick} />
       </div>
       <div id='mobile-view'>
+        <BackgroundSquares />
         <MainContentContainerMobile mode={mode} handleLightDarkClick={handleLightDarkClick} />
       </div>
     </div>
