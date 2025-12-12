@@ -51,6 +51,9 @@
 </details>
 
 
+<img width="1920" height="964" alt="Screenshot 2025-12-11 at 9 06 15 PM" src="https://github.com/user-attachments/assets/523cad8c-123d-44c7-b387-39ba60246c10" />
+
+
 
 <!-- ABOUT THE PROJECT -->
 ## Built With
