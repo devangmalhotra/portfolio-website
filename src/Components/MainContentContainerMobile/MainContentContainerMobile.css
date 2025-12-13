@@ -95,7 +95,6 @@
     mask-image: url('../../assets/icons8-hamburger-menu-100.png');
     height: 60%;
     width: 60%;
-    background-color: var(--text-main);
 }
 
 #mobile-navbar-hamburger-container:hover {
