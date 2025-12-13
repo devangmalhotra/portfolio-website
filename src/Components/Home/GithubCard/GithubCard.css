@@ -44,12 +44,3 @@
     mask-image: url('../../../assets/github-142-svgrepo-com.svg');
 }
 
-@supports (hanging-punctuation: first) {
-  /* CSS rules specific to Safari 16+ */
-  .external-link:hover {
-        background-color: var(--accent);
-    
-    }
-}
-
-
