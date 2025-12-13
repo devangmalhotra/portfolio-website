@@ -89,8 +89,6 @@
     justify-content: center;
     align-items: center;
     margin: 1rem 1rem 0 1rem;
-    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-    
 }
 
 #mobile-navbar-hamburger {
@@ -102,9 +100,6 @@
 
 #mobile-navbar-hamburger-container:hover {
     cursor: pointer;
-    border-color: white;
-    background-color: var(--navigator-hover-card-background);
-    transition: 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 #main-content-container-mobile #navbar-card-container {

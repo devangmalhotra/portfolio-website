@@ -65,7 +65,7 @@ function MainContentContainerMobile(props) {
             </AnimatePresence>
             
         </div>
-        <motion.div id='mobile-navbar-hamburger-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }} whileHover={{ transition: { duration: 0.3, ease: [0, 0.71, 0.2, 1.01] } }} onClick={handleHamburgerClick} key={'hamburger'}>
+        <motion.div id='mobile-navbar-hamburger-container' className='card' initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.3, ease: [0, 0.71, 0.2, 1.01] }} whileHover={ { backgroundColor: 'var(--navigator-hover-card-background)', borderColor: 'var(--text-main)', transition: { duration: 0.3, ease: [0, 0.71, 0.2, 1.01] } }} onClick={handleHamburgerClick} whileTap={ { backgroundColor: 'var(--navigator-hover-card-background)', borderColor: 'white', transition: { duration: 0.3, ease: [0, 0.71, 0.2, 1.01] } }} key={'hamburger'}>
             <div id='mobile-navbar-hamburger' className='icon'></div>
         </motion.div>
         <div id='mobile-pages-container'>
