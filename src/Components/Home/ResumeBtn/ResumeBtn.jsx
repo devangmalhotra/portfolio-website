@@ -2,7 +2,7 @@ import React from 'react'
 import './ResumeBtn.css'
 import resume from '../../../assets/Devang Malhotra - Resume.pdf'
 
-function ContactBtn() {
+function ResumeBtn() {
   const handleClick = () => {
           const newWindow = window.open(resume, '_blank', 'noopener,noreferrer');
           if (newWindow) newWindow.opener = null;
@@ -15,4 +15,4 @@ function ContactBtn() {
   )
 }
 
-export default ContactBtn
+export default ResumeBtn

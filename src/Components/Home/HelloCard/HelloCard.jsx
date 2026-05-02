@@ -1,6 +1,6 @@
 import React from 'react'
 import './HelloCard.css'
-import ContactBtn from '../ResumeBtn/ResumeBtn'
+import ResumeBtn from '../ResumeBtn/ResumeBtn'
 import { motion } from 'motion/react'
 
 function HelloCard() {
@@ -9,7 +9,7 @@ function HelloCard() {
       <div id='hello-card-content' className='card-content'>
         <h2>Hi There, I'm Devang Malhotra! 👋</h2>
         <h5>4th Year BBA and CS Student @ Wilfrid Laurier University</h5>
-        <ContactBtn />
+        <ResumeBtn />
       </div>
     </motion.div>
   )
